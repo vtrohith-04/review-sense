@@ -1,0 +1,5 @@
+{
+  "name": "Review Sense",
+  "description": "A sophisticated machine learning web app to classify customer product review emotions into categories like Positive, Negative, Neutral, Happy, Angry, Sad, Surprised, Fearful, Disgusted. Key features include a text input for single review analysis, batch review upload, clear display of predicted emotions, and a dashboard summarizing overall sentiment.",
+  "requestFramePermissions": []
+}
