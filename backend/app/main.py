@@ -1,7 +1,8 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
 from app.config import DEFAULT_THRESHOLD, DEFAULT_TOP_K, EMOTION_LABELS
+from app.inference import ModelUnavailableError, predict_emotions
 
 
 class HealthResponse(BaseModel):
@@ -30,7 +31,7 @@ class EmotionPredictionResponse(BaseModel):
 app = FastAPI(
     title="Review Sense API",
     version="0.1.0",
-    description="Backend scaffold for review emotion classification.",
+    description="API for Review Sense emotion classification.",
 )
 
 
@@ -46,16 +47,16 @@ def get_labels() -> dict[str, list[str]]:
 
 @app.post("/api/v1/predict/emotion", response_model=EmotionPredictionResponse)
 def predict_emotion(payload: EmotionPredictionRequest) -> EmotionPredictionResponse:
-    # Placeholder response until the ML inference pipeline is connected.
-    top_emotions = [
-        EmotionScore(label="neutral", score=0.51),
-        EmotionScore(label="happy", score=0.27),
-        EmotionScore(label="frustrated", score=0.22),
-    ][: payload.top_k]
+    try:
+        predictions = predict_emotions(payload.text, payload.threshold, payload.top_k)
+    except ModelUnavailableError as error:
+        raise HTTPException(status_code=503, detail=str(error)) from error
+
+    top_emotions = [EmotionScore(label=label, score=round(score, 4)) for label, score in predictions]
 
     return EmotionPredictionResponse(
         primary_emotion=top_emotions[0].label,
         top_emotions=top_emotions,
-        model_name="placeholder-baseline",
-        mode="multi_label_stub",
+        model_name="tfidf-logistic-regression-baseline",
+        mode="multi_label",
     )
