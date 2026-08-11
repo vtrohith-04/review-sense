@@ -2,23 +2,34 @@
 import { Emotion } from './types';
 
 export const EMOTIONS: Emotion[] = [
-    Emotion.Neutral,
     Emotion.Happy,
-    Emotion.Angry,
     Emotion.Sad,
+    Emotion.Angry,
     Emotion.Frustrated,
     Emotion.Surprised,
     Emotion.Fearful,
-    Emotion.Disgusted
+    Emotion.Disgusted,
+    Emotion.Neutral
 ];
 
 export const EMOTION_COLORS: Record<Emotion, string> = {
-    [Emotion.Neutral]: '#6b7280',  // gray-500
-    [Emotion.Happy]: '#22c55e',    // green-500
-    [Emotion.Angry]: '#dc2626',     // red-600
-    [Emotion.Sad]: '#3b82f6',      // blue-500
-    [Emotion.Frustrated]: '#d97706', // amber-600
-    [Emotion.Surprised]: '#f97316', // orange-500
-    [Emotion.Fearful]: '#7c3aed',   // violet-600
-    [Emotion.Disgusted]: '#64748b'  // slate-500
+    [Emotion.Happy]: '#f59e0b',
+    [Emotion.Sad]: '#3b82f6',
+    [Emotion.Angry]: '#ef4444',
+    [Emotion.Frustrated]: '#f97316',
+    [Emotion.Surprised]: '#8b5cf6',
+    [Emotion.Fearful]: '#6366f1',
+    [Emotion.Disgusted]: '#10b981',
+    [Emotion.Neutral]: '#64748b'
+};
+
+export const EMOTION_LABELS: Record<Emotion, string> = {
+    [Emotion.Happy]: 'Happy',
+    [Emotion.Sad]: 'Sad',
+    [Emotion.Angry]: 'Angry',
+    [Emotion.Frustrated]: 'Frustrated',
+    [Emotion.Surprised]: 'Surprised',
+    [Emotion.Fearful]: 'Fearful',
+    [Emotion.Disgusted]: 'Disgusted',
+    [Emotion.Neutral]: 'Neutral'
 };
