@@ -7,12 +7,14 @@ import type { AnalysisResult, DashboardData } from './types';
 
 const sampleReview = "I was honestly surprised by how quickly support fixed my issue. The reply felt personal and saved me a lot of time.";
 
+type ActiveView = 'dashboard' | 'history' | 'batchJobs' | 'settings';
+
 const navItems = [
-    { label: 'Dashboard', icon: 'grid' },
-    { label: 'History', icon: 'clock' },
-    { label: 'Batch Jobs', icon: 'file' },
-    { label: 'Settings', icon: 'gear' },
-];
+    { id: 'dashboard', label: 'Dashboard', icon: 'GR' },
+    { id: 'history', label: 'History', icon: 'CL' },
+    { id: 'batchJobs', label: 'Batch Jobs', icon: 'FI' },
+    { id: 'settings', label: 'Settings', icon: 'GE' },
+] as const;
 
 const formatPercent = (score: number) => `${Math.round(score * 100)}%`;
 
@@ -43,7 +45,10 @@ const EmotionChip: React.FC<{ emotion: Emotion }> = ({ emotion }) => (
     </span>
 );
 
-const Sidebar: React.FC = () => (
+const Sidebar: React.FC<{
+    activeView: ActiveView;
+    onViewChange: (view: ActiveView) => void;
+}> = ({ activeView, onViewChange }) => (
     <aside className="hidden h-screen w-64 shrink-0 border-r border-slate-200 bg-white px-5 py-6 lg:sticky lg:top-0 lg:flex lg:flex-col">
         <div className="mb-10 flex items-center gap-3">
             <div className="grid h-10 w-10 place-items-center rounded-xl bg-slate-950 text-white">
@@ -56,16 +61,18 @@ const Sidebar: React.FC = () => (
         </div>
 
         <nav className="space-y-2">
-            {navItems.map((item, index) => (
+            {navItems.map((item) => (
                 <button
                     key={item.label}
+                    type="button"
+                    onClick={() => onViewChange(item.id)}
                     className={`flex w-full items-center gap-3 rounded-lg px-4 py-3 text-left text-sm font-bold transition ${
-                        index === 0
+                        activeView === item.id
                             ? 'bg-blue-600 text-white shadow-sm'
                             : 'text-slate-600 hover:bg-slate-100 hover:text-slate-950'
                     }`}
                 >
-                    <span className="grid h-5 w-5 place-items-center text-xs uppercase">{item.icon.slice(0, 2)}</span>
+                    <span className="grid h-5 w-5 place-items-center text-xs uppercase">{item.icon}</span>
                     {item.label}
                 </button>
             ))}
@@ -79,7 +86,7 @@ const Sidebar: React.FC = () => (
     </aside>
 );
 
-const TopBar: React.FC = () => (
+const TopBar: React.FC<{ onNewAnalysis: () => void }> = ({ onNewAnalysis }) => (
     <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 px-4 py-4 backdrop-blur md:px-8">
         <div className="flex items-center justify-between gap-4">
             <div className="flex min-w-0 flex-1 items-center gap-3 rounded-full bg-slate-100 px-4 py-2 text-slate-500 md:max-w-md">
@@ -89,7 +96,11 @@ const TopBar: React.FC = () => (
                     placeholder="Search reviews, reports..."
                 />
             </div>
-            <button className="rounded-full bg-slate-950 px-5 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-blue-700">
+            <button
+                type="button"
+                onClick={onNewAnalysis}
+                className="rounded-full bg-slate-950 px-5 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-blue-700"
+            >
                 + New Analysis
             </button>
         </div>
@@ -331,6 +342,168 @@ const BatchSummary: React.FC<{ dashboardData: DashboardData | null }> = ({ dashb
     </div>
 );
 
+const PageHeader: React.FC<{
+    eyebrow: string;
+    title: string;
+    description: string;
+    children?: React.ReactNode;
+}> = ({ eyebrow, title, description, children }) => (
+    <div className="mb-6 flex flex-col justify-between gap-4 xl:flex-row xl:items-end">
+        <div>
+            <p className="text-sm font-extrabold uppercase tracking-wide text-blue-700">{eyebrow}</p>
+            <h1 className="mt-2 text-4xl font-extrabold tracking-tight text-slate-950 md:text-5xl">{title}</h1>
+            <p className="mt-3 max-w-3xl text-base leading-7 text-slate-600">{description}</p>
+        </div>
+        {children}
+    </div>
+);
+
+const StatusBadges: React.FC = () => (
+    <div className="flex gap-3">
+        <span className="rounded-full bg-emerald-50 px-4 py-2 text-xs font-extrabold text-emerald-700">
+            API Connected
+        </span>
+        <span className="rounded-full bg-amber-50 px-4 py-2 text-xs font-extrabold text-amber-700">
+            Baseline Model
+        </span>
+    </div>
+);
+
+const DashboardView: React.FC<{
+    reviewText: string;
+    isLoading: boolean;
+    error: string | null;
+    singleResult: AnalysisResult | null;
+    dashboardData: DashboardData | null;
+    recentAnalyses: AnalysisResult[];
+    onReviewTextChange: (value: string) => void;
+    onSingleSubmit: () => void;
+    onBatchSubmit: (reviews: string[]) => void;
+}> = ({
+    reviewText,
+    isLoading,
+    error,
+    singleResult,
+    dashboardData,
+    recentAnalyses,
+    onReviewTextChange,
+    onSingleSubmit,
+    onBatchSubmit,
+}) => (
+    <>
+        <PageHeader
+            eyebrow="Review Sense"
+            title="Emotion Analysis Dashboard"
+            description="Analyze customer review emotions in real time and turn messy feedback into clear signals."
+        >
+            <StatusBadges />
+        </PageHeader>
+
+        {error && (
+            <div className="mb-5 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">
+                {error}
+            </div>
+        )}
+
+        <div className="grid gap-6 xl:grid-cols-12">
+            <div className="xl:col-span-5">
+                <InputPanel
+                    reviewText={reviewText}
+                    isLoading={isLoading}
+                    onReviewTextChange={onReviewTextChange}
+                    onSingleSubmit={onSingleSubmit}
+                    onBatchSubmit={onBatchSubmit}
+                />
+            </div>
+            <div className="space-y-6 xl:col-span-7">
+                <PrimaryEmotionCard result={singleResult} isLoading={isLoading} />
+                <div className="grid gap-6 lg:grid-cols-2">
+                    <EmotionBars result={singleResult} />
+                    <DistributionChart dashboardData={dashboardData} result={singleResult} />
+                </div>
+            </div>
+        </div>
+
+        <div className="mt-6">
+            <BatchSummary dashboardData={dashboardData} />
+        </div>
+
+        <div className="mt-6">
+            <RecentAnalyses analyses={recentAnalyses} />
+        </div>
+    </>
+);
+
+const HistoryView: React.FC<{ analyses: AnalysisResult[] }> = ({ analyses }) => (
+    <>
+        <PageHeader
+            eyebrow="Review Archive"
+            title="Analysis History"
+            description="Review the latest emotion predictions created during this local session."
+        >
+            <span className="rounded-full bg-blue-50 px-4 py-2 text-xs font-extrabold text-blue-700">
+                {analyses.length} local results
+            </span>
+        </PageHeader>
+        <RecentAnalyses analyses={analyses} />
+    </>
+);
+
+const BatchJobsView: React.FC<{
+    dashboardData: DashboardData | null;
+    analyses: AnalysisResult[];
+}> = ({ dashboardData, analyses }) => (
+    <>
+        <PageHeader
+            eyebrow="Batch Processing"
+            title="Batch Jobs"
+            description="Track uploaded TXT or CSV review batches and see their strongest emotion patterns."
+        >
+            <span className="rounded-full bg-slate-900 px-4 py-2 text-xs font-extrabold text-white">
+                Upload from Dashboard
+            </span>
+        </PageHeader>
+        <BatchSummary dashboardData={dashboardData} />
+        <div className="mt-6 grid gap-6 lg:grid-cols-2">
+            <DistributionChart dashboardData={dashboardData} result={analyses[0] ?? null} />
+            <EmotionBars result={analyses[0] ?? null} />
+        </div>
+        <div className="mt-6">
+            <RecentAnalyses analyses={analyses} />
+        </div>
+    </>
+);
+
+const SettingsView: React.FC = () => (
+    <>
+        <PageHeader
+            eyebrow="System"
+            title="Settings"
+            description="Keep model configuration visible while we decide what to train or add next."
+        >
+            <StatusBadges />
+        </PageHeader>
+        <div className="grid gap-6 lg:grid-cols-2">
+            <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <p className="text-xs font-extrabold uppercase tracking-wide text-slate-400">Model Configuration</p>
+                <h2 className="mt-2 text-xl font-extrabold text-slate-950">Baseline Emotion Model</h2>
+                <div className="mt-5 space-y-3 text-sm text-slate-600">
+                    <p><span className="font-bold text-slate-900">Model:</span> TF-IDF + Logistic Regression</p>
+                    <p><span className="font-bold text-slate-900">Mode:</span> multi-label emotion classification</p>
+                    <p><span className="font-bold text-slate-900">API route:</span> /api/v1/predict/emotion</p>
+                </div>
+            </section>
+            <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <p className="text-xs font-extrabold uppercase tracking-wide text-slate-400">Next Capability</p>
+                <h2 className="mt-2 text-xl font-extrabold text-slate-950">Fake or Spam Review Detection</h2>
+                <p className="mt-4 text-sm leading-6 text-slate-600">
+                    This is a strong next feature because it turns Review Sense from emotion analytics into review quality intelligence.
+                </p>
+            </section>
+        </div>
+    </>
+);
+
 const App: React.FC = () => {
     const [reviewText, setReviewText] = useState(sampleReview);
     const [isLoading, setIsLoading] = useState(false);
@@ -338,6 +511,7 @@ const App: React.FC = () => {
     const [singleResult, setSingleResult] = useState<AnalysisResult | null>(null);
     const [dashboardData, setDashboardData] = useState<DashboardData | null>(null);
     const [recentAnalyses, setRecentAnalyses] = useState<AnalysisResult[]>([]);
+    const [activeView, setActiveView] = useState<ActiveView>('dashboard');
 
     const saveRecent = (results: AnalysisResult[]) => {
         setRecentAnalyses((current) => [...results, ...current].slice(0, 6));
@@ -356,6 +530,7 @@ const App: React.FC = () => {
             const result = await analyzeEmotion(reviewText.trim());
             setSingleResult(result);
             saveRecent([result]);
+            setActiveView('dashboard');
         } catch (caughtError) {
             setError(caughtError instanceof Error ? caughtError.message : 'An unknown error occurred.');
         } finally {
@@ -388,6 +563,7 @@ const App: React.FC = () => {
                 averageConfidence,
             });
             saveRecent(results);
+            setActiveView('batchJobs');
         } catch (caughtError) {
             setError(caughtError instanceof Error ? caughtError.message : 'An unknown error occurred during batch processing.');
         } finally {
@@ -395,65 +571,45 @@ const App: React.FC = () => {
         }
     }, []);
 
+    const handleNewAnalysis = () => {
+        setError(null);
+        setReviewText('');
+        setActiveView('dashboard');
+    };
+
+    const renderActiveView = () => {
+        switch (activeView) {
+            case 'history':
+                return <HistoryView analyses={recentAnalyses} />;
+            case 'batchJobs':
+                return <BatchJobsView dashboardData={dashboardData} analyses={recentAnalyses} />;
+            case 'settings':
+                return <SettingsView />;
+            default:
+                return (
+                    <DashboardView
+                        reviewText={reviewText}
+                        isLoading={isLoading}
+                        error={error}
+                        singleResult={singleResult}
+                        dashboardData={dashboardData}
+                        recentAnalyses={recentAnalyses}
+                        onReviewTextChange={setReviewText}
+                        onSingleSubmit={handleSingleSubmit}
+                        onBatchSubmit={handleBatchSubmit}
+                    />
+                );
+        }
+    };
+
     return (
         <div className="min-h-screen bg-slate-50" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
             <div className="flex">
-                <Sidebar />
+                <Sidebar activeView={activeView} onViewChange={setActiveView} />
                 <div className="min-w-0 flex-1">
-                    <TopBar />
+                    <TopBar onNewAnalysis={handleNewAnalysis} />
                     <main className="px-4 py-6 md:px-8">
-                        <div className="mb-6 flex flex-col justify-between gap-4 xl:flex-row xl:items-end">
-                            <div>
-                                <p className="text-sm font-extrabold uppercase tracking-wide text-blue-700">Review Sense</p>
-                                <h1 className="mt-2 text-4xl font-extrabold tracking-tight text-slate-950 md:text-5xl">
-                                    Emotion Analysis Dashboard
-                                </h1>
-                                <p className="mt-3 max-w-3xl text-base leading-7 text-slate-600">
-                                    Analyze customer review emotions in real time and turn messy feedback into clear signals.
-                                </p>
-                            </div>
-                            <div className="flex gap-3">
-                                <span className="rounded-full bg-emerald-50 px-4 py-2 text-xs font-extrabold text-emerald-700">
-                                    API Connected
-                                </span>
-                                <span className="rounded-full bg-amber-50 px-4 py-2 text-xs font-extrabold text-amber-700">
-                                    Baseline Model
-                                </span>
-                            </div>
-                        </div>
-
-                        {error && (
-                            <div className="mb-5 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">
-                                {error}
-                            </div>
-                        )}
-
-                        <div className="grid gap-6 xl:grid-cols-12">
-                            <div className="xl:col-span-5">
-                                <InputPanel
-                                    reviewText={reviewText}
-                                    isLoading={isLoading}
-                                    onReviewTextChange={setReviewText}
-                                    onSingleSubmit={handleSingleSubmit}
-                                    onBatchSubmit={handleBatchSubmit}
-                                />
-                            </div>
-                            <div className="space-y-6 xl:col-span-7">
-                                <PrimaryEmotionCard result={singleResult} isLoading={isLoading} />
-                                <div className="grid gap-6 lg:grid-cols-2">
-                                    <EmotionBars result={singleResult} />
-                                    <DistributionChart dashboardData={dashboardData} result={singleResult} />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="mt-6">
-                            <BatchSummary dashboardData={dashboardData} />
-                        </div>
-
-                        <div className="mt-6">
-                            <RecentAnalyses analyses={recentAnalyses} />
-                        </div>
+                        {renderActiveView()}
                     </main>
                 </div>
             </div>
