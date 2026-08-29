@@ -1,0 +1,7479 @@
+{
+  "sad -> sad": [
+    {
+      "text": "Me me big sad.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9999,
+      "index": 3740
+    },
+    {
+      "text": "I didn\u2019t know I\u2019m sorry",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9996,
+      "index": 900
+    },
+    {
+      "text": "Damn that\u2019s sad",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9952,
+      "index": 4737
+    },
+    {
+      "text": "Not really cringe. Just sad.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9946,
+      "index": 3809
+    },
+    {
+      "text": "\"This droid has a bad motivator.\"",
+      "true_labels": [
+        "disgusted",
+        "sad"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.989,
+      "index": 1976
+    },
+    {
+      "text": "I feel sorry for this little girl. She's legitimely scared.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9874,
+      "index": 4855
+    },
+    {
+      "text": "literally I feel like crying",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9873,
+      "index": 4581
+    },
+    {
+      "text": "Damn. I'm sorry. What misery.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9854,
+      "index": 572
+    },
+    {
+      "text": "I\u2019m sorry to be that guy, but I don\u2019t get it ",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9844,
+      "index": 4064
+    },
+    {
+      "text": "This is so cringey it hurts. I feel so bad for whoever sent this because they are so stupid.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9828,
+      "index": 4942
+    }
+  ],
+  "angry -> neutral": [
+    {
+      "text": "BEN \"[NAME]\" LOVEJOY!",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.9364,
+      "index": 2010
+    },
+    {
+      "text": "Hello autism my old friend",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8655,
+      "index": 2801
+    },
+    {
+      "text": "Maybe [NAME].",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8608,
+      "index": 595
+    },
+    {
+      "text": "They always blab about IQ and other garbage but they have the intelligence of a bag of hammers.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8214,
+      "index": 3031
+    },
+    {
+      "text": "No, the full video shows that the kids surrounded and berated the native elder man ",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8192,
+      "index": 2865
+    },
+    {
+      "text": "I punch them in the throat before they get the chance to speak.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8179,
+      "index": 2013
+    },
+    {
+      "text": "> punishment for saying no to rape Surely if you wanted to rape someone you'd have to punish them for saying yes...",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8173,
+      "index": 3499
+    },
+    {
+      "text": "I'd rather die than drive a Volvo!",
+      "true_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.81,
+      "index": 1800
+    },
+    {
+      "text": "If \"everything is political\" then nothing is political because it's all the same. You know what I meant by \"political\".",
+      "true_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8095,
+      "index": 1062
+    },
+    {
+      "text": "I despise [NAME] and all his cronies",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8021,
+      "index": 3760
+    }
+  ],
+  "surprised -> surprised": [
+    {
+      "text": "wow - resonates with me.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9939,
+      "index": 2587
+    },
+    {
+      "text": "What a turnaround.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9927,
+      "index": 1745
+    },
+    {
+      "text": "Wondered 'why doesn't it seem like theyre making any progress' before I realized how short the loop was....",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.974,
+      "index": 2708
+    },
+    {
+      "text": ">Feminism is how we get to equality how do you know that?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9679,
+      "index": 2916
+    },
+    {
+      "text": "Why do you feel like you have to figure out what life is alone?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9674,
+      "index": 1181
+    },
+    {
+      "text": "do you......do you actually believe this!?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9671,
+      "index": 2552
+    },
+    {
+      "text": "Why do you think he's right? What reason would a nonprofit newsroom have for publishing sensationalist headlines?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9636,
+      "index": 4819
+    },
+    {
+      "text": "Wow, an [NAME] sighting",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9613,
+      "index": 115
+    },
+    {
+      "text": "Why is neighbour spelt incorrectly?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9568,
+      "index": 680
+    },
+    {
+      "text": "What about from the POTUS?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9536,
+      "index": 4314
+    }
+  ],
+  "frustrated -> sad": [
+    {
+      "text": "[NAME]... I'm sorry. This is just wrong. I, can't.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9951,
+      "index": 215
+    },
+    {
+      "text": "Then I\u2019m sorry but this game really isn\u2019t for you. Progression like that would ruin the base of what this game is.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9672,
+      "index": 3893
+    },
+    {
+      "text": "Sorry if this has been covered a bunch but what happened on the play where [NAME] got injured?",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9663,
+      "index": 1786
+    },
+    {
+      "text": "I'm sorry you needed to add this. I thought your humour was pretty obvious, but this is reddit....",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9608,
+      "index": 1404
+    },
+    {
+      "text": "Didn't that used to be the Northern Bank building? Never been troubled by pickpockets in Bangor but probably because I looked too poor!",
+      "true_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9571,
+      "index": 3396
+    },
+    {
+      "text": "I felt bad for laughing",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9471,
+      "index": 919
+    },
+    {
+      "text": "Hasn\u2019t hurt me none",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8991,
+      "index": 3418
+    },
+    {
+      "text": "It would be really bad for relations between the two cities if we took Memphis' NBA team.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8981,
+      "index": 884
+    },
+    {
+      "text": "Yah. I unfortunately was sitting and watching this documentary with my Mother. That was very awkward.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8328,
+      "index": 2836
+    },
+    {
+      "text": "I can't tell if this is a happy or sad ending. \ud83d\ude10",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8242,
+      "index": 4916
+    }
+  ],
+  "happy -> angry": [
+    {
+      "text": "Thanks I hate it.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9604,
+      "index": 2387
+    },
+    {
+      "text": "Guys how are we doing? Asking because dumb TV in my country prefers Copa d'Italia to fucking Real Madrid lol",
+      "true_labels": [
+        "angry",
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.913,
+      "index": 981
+    },
+    {
+      "text": "Thank fucking [NAME].",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8912,
+      "index": 1013
+    },
+    {
+      "text": "This is why I love politics. It really shows how stupid people are.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8845,
+      "index": 3421
+    },
+    {
+      "text": "Yeah well first god says it\u2019s an abomination. Also if people find out everyone will hate me and my parents will be extremely angry",
+      "true_labels": [
+        "angry",
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8777,
+      "index": 2455
+    },
+    {
+      "text": "I agree totally. Talk about fucking insanely bizarre. He's stuck in the shining",
+      "true_labels": [
+        "angry",
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.847,
+      "index": 2451
+    },
+    {
+      "text": "Lmao. Fuck, you got me good.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8461,
+      "index": 1074
+    },
+    {
+      "text": "Nothing against bartenders at all. Dumbass people like [NAME], I make fun of because I can.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8368,
+      "index": 2742
+    },
+    {
+      "text": "When I die Im gonna ask satan for a job in hell whipping all these cunts",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.825,
+      "index": 120
+    },
+    {
+      "text": "There is also no dog in the white house. Why? Because dogs can smell an asshole a mile away.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8228,
+      "index": 401
+    }
+  ],
+  "frustrated -> neutral": [
+    {
+      "text": "They call it the hub and spoke system. They neglected to include a wheel.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8607,
+      "index": 2144
+    },
+    {
+      "text": "Does [NAME] or [NAME] look happier that [NAME] chose to put his hand on [NAME] leg?",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8423,
+      "index": 3778
+    },
+    {
+      "text": "My only criticism is xhaka, too slow on and off the ball.",
+      "true_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8376,
+      "index": 4468
+    },
+    {
+      "text": "Maybe server related? I've got 2 cars in a low pop server and they work just fine...",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8358,
+      "index": 4822
+    },
+    {
+      "text": "Watch Vegan Gains\u2019 video on that, he had it when he was like 13, highly doubt he was juicing then",
+      "true_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.833,
+      "index": 23
+    },
+    {
+      "text": "Maybe she was attempting to be ironic? I dunno, man, people are just an enigma.",
+      "true_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8326,
+      "index": 1232
+    },
+    {
+      "text": "They don\u2019t. Conservatives want to characterize any scoopy news organization as unreliable because they can\u2019t get ahead of them easily.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8291,
+      "index": 1140
+    },
+    {
+      "text": "Narrator: \"They did not\"",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8229,
+      "index": 365
+    },
+    {
+      "text": "[NAME] gets a lot of unfair criticism. [NAME], too",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8093,
+      "index": 3509
+    },
+    {
+      "text": "I just unassigned and left",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.789,
+      "index": 4362
+    }
+  ],
+  "neutral -> neutral": [
+    {
+      "text": "They dont mind a second trump term if [NAME] 2020 looks likely",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8972,
+      "index": 4022
+    },
+    {
+      "text": "Because they aren't different subspecies",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8749,
+      "index": 4007
+    },
+    {
+      "text": "When [NAME] and [NAME] left because they were a bit too male, I guess. Get woke; go broke.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8716,
+      "index": 1236
+    },
+    {
+      "text": "No no she was \"[NAME]\"",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8551,
+      "index": 110
+    },
+    {
+      "text": "Nobody left Milky Way yet because of reapers. It\u2019s not possible nobody got in for the same reason, or a similar more localized reason ",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8453,
+      "index": 4033
+    },
+    {
+      "text": "I thought they held hands while they and [NAME] were watching TV ([NAME] was pretending to be sick in that episode)?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8425,
+      "index": 3492
+    },
+    {
+      "text": "Dude your source on the school says they would investigate. Not a condemnation. Not in any stretch.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8318,
+      "index": 2493
+    },
+    {
+      "text": "Damned if nobody knows who they are, damned if they do",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8315,
+      "index": 2363
+    },
+    {
+      "text": "TIL I learned there are no drugs or violent incidents in prisons.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8289,
+      "index": 3566
+    },
+    {
+      "text": "[NAME] career ended after he broke his foot when he kicked a seat while blacked out on a party after a Vikings game.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8232,
+      "index": 1113
+    }
+  ],
+  "neutral -> frustrated": [
+    {
+      "text": "Don't doubt yourself. They're wrong.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9854,
+      "index": 2814
+    },
+    {
+      "text": "Not sure what makes me a nimby but ok?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.974,
+      "index": 3423
+    },
+    {
+      "text": "Not sure why [NAME] didn't foul to stop the fast break there",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9731,
+      "index": 1495
+    },
+    {
+      "text": "Yeah, and I don\u2019t know why, it was totally out of character for me...",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9574,
+      "index": 5064
+    },
+    {
+      "text": "Don't do that.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9384,
+      "index": 1758
+    },
+    {
+      "text": "No. You're not the only one.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9374,
+      "index": 4687
+    },
+    {
+      "text": "No it doesn't. It's a lie. [NAME] is not far right. The US hasn't \"installed\" anyone",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9313,
+      "index": 4231
+    },
+    {
+      "text": "The original video was debunked. Do you agree or disagree?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9234,
+      "index": 4826
+    },
+    {
+      "text": "I understand the confusion",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9222,
+      "index": 2971
+    },
+    {
+      "text": "> I don't understand why a reasonable person would perceive it as being objectively mean. Simply put, journalists are not reasonable people. ",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9189,
+      "index": 2557
+    }
+  ],
+  "neutral -> happy": [
+    {
+      "text": "Love and marriage",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9826,
+      "index": 2964
+    },
+    {
+      "text": "Thanks for further justifying my support for Tulsi, Daily Gross.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9812,
+      "index": 2130
+    },
+    {
+      "text": "This made me gag lol",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9777,
+      "index": 2336
+    },
+    {
+      "text": "some people just want attention..lol",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9727,
+      "index": 1591
+    },
+    {
+      "text": "Thank you! [NAME] seems to realize how toxic this fanbase can be also.. Now lets hope you all keep your composure whether we win or lose week 1.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9688,
+      "index": 4945
+    },
+    {
+      "text": "Love is war",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9365,
+      "index": 3713
+    },
+    {
+      "text": "I'm 5'6\" and three quarters haha. Have hair though.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.923,
+      "index": 3961
+    },
+    {
+      "text": "Cheers! :)",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9182,
+      "index": 1468
+    },
+    {
+      "text": "Wow that was such a beautiful drive by [NAME]. Really wish we could see more of that",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9068,
+      "index": 2828
+    },
+    {
+      "text": "#YES.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9063,
+      "index": 2561
+    }
+  ],
+  "neutral -> surprised": [
+    {
+      "text": "WHAT!?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9927,
+      "index": 1096
+    },
+    {
+      "text": "Oh my [NAME] why did I look",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9892,
+      "index": 4390
+    },
+    {
+      "text": "How do you know this?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9883,
+      "index": 438
+    },
+    {
+      "text": "wh is that undertale",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9812,
+      "index": 280
+    },
+    {
+      "text": "Do you think the kid was crazy or was the mom crazy? Or do you think it was a bit of both?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9651,
+      "index": 1720
+    },
+    {
+      "text": "Did they really have overhead projectors in the late 00s/early 10s? If so, how underfunded was your school?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9642,
+      "index": 142
+    },
+    {
+      "text": "KUBIAK WHY HAVE YOU FORSAKEN US???",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9623,
+      "index": 1695
+    },
+    {
+      "text": "you wear a headband, what are you a girl? /s",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9621,
+      "index": 2149
+    },
+    {
+      "text": "Wow I\u2019m sorry. Can you take pictures of your bruises? What was she nagging you about?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9609,
+      "index": 1914
+    },
+    {
+      "text": "How is this world politics?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9479,
+      "index": 2624
+    }
+  ],
+  "happy -> neutral": [
+    {
+      "text": "It's a shortcut, dude, he just knows the map!",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.9073,
+      "index": 4364
+    },
+    {
+      "text": "They said Texas! #Woooooo TEXAS",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8839,
+      "index": 2397
+    },
+    {
+      "text": "Op is likely young and clueless. There\u2019s likely a reason they\u2019re in retail.",
+      "true_labels": [
+        "happy",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8718,
+      "index": 2354
+    },
+    {
+      "text": "Looks like a poached egg.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8556,
+      "index": 2153
+    },
+    {
+      "text": "I only eat cronuts cuz I'm sophisticated!",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8529,
+      "index": 211
+    },
+    {
+      "text": "True! I guess we all cheer for salt lake? Since they are directly affiliated with us.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8421,
+      "index": 4874
+    },
+    {
+      "text": "Lord [NAME] called, he wants his style back",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.834,
+      "index": 3073
+    },
+    {
+      "text": "Your heart stopping is technically a natural cause.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.833,
+      "index": 3345
+    },
+    {
+      "text": "They are children, they have no souls. ",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8327,
+      "index": 5068
+    },
+    {
+      "text": "Now we need [NAME] to reunite with [NAME]",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8317,
+      "index": 518
+    }
+  ],
+  "frustrated -> angry": [
+    {
+      "text": "I hate people",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9936,
+      "index": 1186
+    },
+    {
+      "text": "You don\u2019t have to hate players just for being on a different team. I hate that [NAME] is an [NAME]. I don\u2019t hate [NAME]",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9881,
+      "index": 4401
+    },
+    {
+      "text": "Can't you tell that [NAME] is a serious threat to apprehend. All that alleged lying makes him a serious threat to others.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8328,
+      "index": 4978
+    },
+    {
+      "text": "middle of lane is dumb that\u2019s where all the oil pools, lane split seems like no one likes it but that\u2019s more understandable",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8006,
+      "index": 1417
+    },
+    {
+      "text": "As a society we should be ashamed of the fact that this is even a question. Let the suffering stop obviously.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.7743,
+      "index": 2418
+    },
+    {
+      "text": "These memes are either on a 9gag level or r/funny levels of comedy. And I can't tell which is worse.",
+      "true_labels": [
+        "disgusted",
+        "frustrated",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.7515,
+      "index": 3876
+    },
+    {
+      "text": "China cheating the rest of the world is horrible for the economy and society.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.749,
+      "index": 420
+    },
+    {
+      "text": "This is not r/lostredditors material if we just try to find something stupid on it.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.7133,
+      "index": 2286
+    },
+    {
+      "text": "Irrelevant, actually You're both talking about different things",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.6906,
+      "index": 3095
+    },
+    {
+      "text": "That's a maryland fan comment. You should be ashamed of yourself.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.6563,
+      "index": 1363
+    }
+  ],
+  "angry -> happy": [
+    {
+      "text": "Yeah thank you you ungrateful bast.....",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9995,
+      "index": 707
+    },
+    {
+      "text": "Eff your video - love Canada \ud83c\udde8\ud83c\udde6 Stupid geolock",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9463,
+      "index": 78
+    },
+    {
+      "text": "Yes! Dont you love to let babies suck you with a perfect jawline!",
+      "true_labels": [
+        "angry",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9214,
+      "index": 3878
+    },
+    {
+      "text": "Baby rape. Can\u2019t make a funny joke about it.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9168,
+      "index": 930
+    },
+    {
+      "text": "It's so weird having HGs up this early, but I love having something to watch before my 8am lecture starts.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8926,
+      "index": 4457
+    },
+    {
+      "text": "IT'S NOT FUNNY HOLLY.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.822,
+      "index": 2325
+    },
+    {
+      "text": "We had 3 whole pallets of this one doll and I'm like \"wtf\" so I checked and the location said 8000 something lmao.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8042,
+      "index": 2197
+    },
+    {
+      "text": "I got sucked right back into the vicious cycle of love-bombing, gas-lighting and degradation.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7584,
+      "index": 4815
+    },
+    {
+      "text": "I would hope that Cartoon Network would have nothing to do with it. Would hate to see them \"Teen Titan\" ASOIAF. ",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7443,
+      "index": 1114
+    },
+    {
+      "text": "Get back on your meds mate..You aren't funny at all...",
+      "true_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7093,
+      "index": 50
+    }
+  ],
+  "fearful -> fearful": [
+    {
+      "text": "Omg, unbelievably scary. Insane ",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "surprised"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9981,
+      "index": 2982
+    },
+    {
+      "text": "Oof that\u2019s terrible",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "fearful",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9967,
+      "index": 485
+    },
+    {
+      "text": "Worried me there",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9921,
+      "index": 3169
+    },
+    {
+      "text": "So. This is scary as fuck.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9876,
+      "index": 4752
+    },
+    {
+      "text": "Girls screaming alone gives me horrible flashbacks",
+      "true_labels": [
+        "disgusted",
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9858,
+      "index": 1047
+    },
+    {
+      "text": "Yikes that's cringe",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9682,
+      "index": 254
+    },
+    {
+      "text": "I don't know any but my own I'm afraid.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "frustrated"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9643,
+      "index": 599
+    },
+    {
+      "text": "These refs are remarkably terrible tonight. So are the sabres but wow some terrible calls.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "fearful",
+        "surprised"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9598,
+      "index": 787
+    },
+    {
+      "text": "Help, I'm scared and want to go back.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "happy"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9585,
+      "index": 4567
+    },
+    {
+      "text": "death of fear is certain.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9428,
+      "index": 76
+    }
+  ],
+  "happy -> surprised": [
+    {
+      "text": "Oh that\u2019s actually seriously a relief, how do you know that though?",
+      "true_labels": [
+        "happy",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9801,
+      "index": 4067
+    },
+    {
+      "text": "Interesting. I wonder how does this work. Does it do swaps itself? Does it utilize the currency exchange listings? I'll check it out later.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9649,
+      "index": 4377
+    },
+    {
+      "text": "Omg. I just noticed that! Holy fuck, how does she smell?",
+      "true_labels": [
+        "happy",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9573,
+      "index": 4349
+    },
+    {
+      "text": "Oh interesting username",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9543,
+      "index": 573
+    },
+    {
+      "text": "What do you think women do? I\u2019m quiet as a churchmouse when I mastrubate, too",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9482,
+      "index": 439
+    },
+    {
+      "text": "What a finish",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9445,
+      "index": 785
+    },
+    {
+      "text": "wow, we really live in future",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9408,
+      "index": 3914
+    },
+    {
+      "text": "Yep California, I would've been surprised if they cleared him.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9248,
+      "index": 3863
+    },
+    {
+      "text": "OMG [NAME]!",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9074,
+      "index": 3111
+    },
+    {
+      "text": "CANADA! HOW ARE YA, NOW?",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.8935,
+      "index": 1526
+    }
+  ],
+  "sad -> angry": [
+    {
+      "text": "Your TLDR sucks",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9901,
+      "index": 1443
+    },
+    {
+      "text": "Idiots are downvoting your correct comment.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9499,
+      "index": 604
+    },
+    {
+      "text": "ok so that was fucking sick",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.938,
+      "index": 4550
+    },
+    {
+      "text": "That partially explains why season 4 was such a fucking mess",
+      "true_labels": [
+        "disgusted",
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9201,
+      "index": 3085
+    },
+    {
+      "text": "You're an idiot and no one believes you and your telegram jerk-off buddies.",
+      "true_labels": [
+        "angry",
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9161,
+      "index": 3240
+    },
+    {
+      "text": "Oh hell no. Shes blind!!! No way in HELL is she ever being left alone with it.",
+      "true_labels": [
+        "sad",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9143,
+      "index": 4298
+    },
+    {
+      "text": "Must be why I'm alive. That sucks.",
+      "true_labels": [
+        "angry",
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.886,
+      "index": 147
+    },
+    {
+      "text": "you guys got hate in your heart",
+      "true_labels": [
+        "neutral",
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8811,
+      "index": 1863
+    },
+    {
+      "text": "If I had that I\u2019d stop working and travel full time. I do not understand the avarice of the wealthy. It makes no fucking sense.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8641,
+      "index": 5022
+    },
+    {
+      "text": "My adopted daughter told me, \"You can't tell me what to do. You're not my dad.\" While true, it still stung.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.7792,
+      "index": 3530
+    }
+  ],
+  "neutral -> angry": [
+    {
+      "text": "yep, you don't hate Mondays, you hate capitalism. ",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9929,
+      "index": 376
+    },
+    {
+      "text": "RantGrumps in a damn nutshell",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9811,
+      "index": 5010
+    },
+    {
+      "text": "Don\u2019t you just hate when they deforest the Sahara desert?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9662,
+      "index": 5030
+    },
+    {
+      "text": "Shut up and dance",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9474,
+      "index": 3232
+    },
+    {
+      "text": "DAE hate unnecessarily salty people like OP?",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9459,
+      "index": 1864
+    },
+    {
+      "text": "What in the actual fuck are these refs doing right now.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9338,
+      "index": 1307
+    },
+    {
+      "text": "Gotta get 'email all! Edit: stupid autocorrect",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9261,
+      "index": 3668
+    },
+    {
+      "text": "Damn you [NAME]!",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9183,
+      "index": 2381
+    },
+    {
+      "text": "*oh god oh fuck*",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8853,
+      "index": 1245
+    },
+    {
+      "text": "Furry and scaly damn",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8838,
+      "index": 672
+    }
+  ],
+  "happy -> happy": [
+    {
+      "text": "What a nutbar lol",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9999,
+      "index": 789
+    },
+    {
+      "text": "Omg, thank you!",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9997,
+      "index": 652
+    },
+    {
+      "text": "I love this wow",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9994,
+      "index": 4397
+    },
+    {
+      "text": "Wow. Thanks for this.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9979,
+      "index": 1389
+    },
+    {
+      "text": "[NAME]?! Is that [NAME]? I know \"meegwetch\" means thank you lol",
+      "true_labels": [
+        "frustrated",
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.997,
+      "index": 369
+    },
+    {
+      "text": "Is that a tooter lol",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9951,
+      "index": 910
+    },
+    {
+      "text": "Thanks. And wow! Nice burn.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9924,
+      "index": 1206
+    },
+    {
+      "text": "Wow! That's awesome! Congratulations! Its wonderful to have hope of being off medications one day.",
+      "true_labels": [
+        "happy",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9919,
+      "index": 1967
+    },
+    {
+      "text": "Wow. That was deep. I hope you make out well move on and find true love. Be strong",
+      "true_labels": [
+        "happy",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9891,
+      "index": 3790
+    },
+    {
+      "text": "I love my kids. I don't always like my kids, but I love them. ",
+      "true_labels": [
+        "frustrated",
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9868,
+      "index": 4085
+    }
+  ],
+  "angry -> frustrated": [
+    {
+      "text": "Nope. Don't need rewards at all.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9892,
+      "index": 991
+    },
+    {
+      "text": "That doesn't sound right but I don't know enough about stars to dispute it",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9724,
+      "index": 2333
+    },
+    {
+      "text": "I don\u2019t like [NAME] in the slightest but I hate [NAME] even more. Get her Belcalis",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9449,
+      "index": 2173
+    },
+    {
+      "text": "I just say I don't know shit. I'm just a ape man on a rock.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9349,
+      "index": 1996
+    },
+    {
+      "text": "Not sure, I'm not good at expressing my feelings, and sometimes I get angry and say things that very hurtful",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9284,
+      "index": 3969
+    },
+    {
+      "text": "Don't endorse violence against people.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9226,
+      "index": 2867
+    },
+    {
+      "text": "I have no objection to nudity, but why is this a thing? So dumb. ",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9023,
+      "index": 1030
+    },
+    {
+      "text": "It's hard to have a nuanced opinion, innit? But I don't like everything he does. This is one if them.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8859,
+      "index": 4522
+    },
+    {
+      "text": "I would say make it NSFW but I won't joke. We don't work here",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8716,
+      "index": 2503
+    },
+    {
+      "text": "Am I not supposed to have what I want? What I need?!?",
+      "true_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8474,
+      "index": 4386
+    }
+  ],
+  "frustrated -> frustrated": [
+    {
+      "text": "Oh no that's so awkward, I don't understand how people don't understand how weird things like that are! ",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9947,
+      "index": 2066
+    },
+    {
+      "text": "Don\u2019t tempt me!",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9945,
+      "index": 552
+    },
+    {
+      "text": "No I\u2019m not",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9831,
+      "index": 3466
+    },
+    {
+      "text": "Really not sure how that\u2019s your takeaway.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9828,
+      "index": 4477
+    },
+    {
+      "text": "Not at all. I'm not going to argue with someone who doesn't understand what a strawman is.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9717,
+      "index": 84
+    },
+    {
+      "text": "We don't know what would have happened if she'd said no, which is why most guys wouldn't ask.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9672,
+      "index": 2037
+    },
+    {
+      "text": "Not really cringey. Its not really embarrassing for you i think people might just feel bad upon reading it.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.96,
+      "index": 88
+    },
+    {
+      "text": "Not sure if very professional image journalist or avid porn enthusiast but good job all the same!",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9574,
+      "index": 3623
+    },
+    {
+      "text": "Can\u2019t even tell what\u2019s happening here. This isn\u2019t cringe.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.954,
+      "index": 3225
+    },
+    {
+      "text": "Not sure if guys like that are better or worse than regular Incels.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9493,
+      "index": 782
+    }
+  ],
+  "surprised -> neutral": [
+    {
+      "text": "Only 2 days ?",
+      "true_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8967,
+      "index": 2947
+    },
+    {
+      "text": "Is that what happens is [NAME] route? I chose [NAME] and he only does once.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.85,
+      "index": 3123
+    },
+    {
+      "text": "Has he?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8366,
+      "index": 1617
+    },
+    {
+      "text": "ELABORATE plz!!!!",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8247,
+      "index": 2746
+    },
+    {
+      "text": "Lets see how [NAME] goes in Round 6",
+      "true_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8165,
+      "index": 2927
+    },
+    {
+      "text": "A fork and spoon could be a fapoon?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7943,
+      "index": 4494
+    },
+    {
+      "text": "Oof the way he just tossed the cat aside oof",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7852,
+      "index": 4621
+    },
+    {
+      "text": "Wtfffff why can\u2019t I have all of the benefits and none of the consequences :( :(",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7797,
+      "index": 1510
+    },
+    {
+      "text": "[NAME] and [NAME]? High five on the cheers tho",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7791,
+      "index": 3221
+    },
+    {
+      "text": "I'm going Saints and Chiefs. Although I think the Chiefs-Pats game could go either way",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7751,
+      "index": 296
+    }
+  ],
+  "sad -> happy": [
+    {
+      "text": "Sadly, it ran. :( I hope you're enjoying your trip overseas! :D",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8907,
+      "index": 3041
+    },
+    {
+      "text": "Offense does too. Love [NAME] but he's hurting our spacing being out there so much.",
+      "true_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.86,
+      "index": 1522
+    },
+    {
+      "text": "Just keep going and don't lose hope. Stuff like this can happen all the time to anybody. It's just bad luck",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8216,
+      "index": 3236
+    },
+    {
+      "text": "Wow what a disappointing game. Wish we would have showed up",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8196,
+      "index": 168
+    },
+    {
+      "text": "College is a very lonely place. Very stressful, very lonely. [NAME]. Good luck out there man.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8143,
+      "index": 650
+    },
+    {
+      "text": "Yes of mine worry, no one liked mine either. ",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8137,
+      "index": 3702
+    },
+    {
+      "text": "Every day in everyway. If I am to happy with anything next thing I know I'm actively destroying it.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7404,
+      "index": 3572
+    },
+    {
+      "text": "This is exactly what it's been like. I feel personally victimised by it all",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7383,
+      "index": 1421
+    },
+    {
+      "text": "Kids can't have fun anymore...:(",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.691,
+      "index": 2241
+    },
+    {
+      "text": "Being a nice, interesting person has helped me get a lot of friends but hasn't really gotten me anywhere with regards to women. ",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.6797,
+      "index": 2837
+    }
+  ],
+  "angry -> angry": [
+    {
+      "text": "Your kind honestly need to fuck off out of Ireland. Nobody wants your dumb fucking antisemitism here",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9954,
+      "index": 4985
+    },
+    {
+      "text": "Fuck [NAME] pai",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9928,
+      "index": 3478
+    },
+    {
+      "text": "Are you fucking serious? That\u2019s a foul??",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9918,
+      "index": 472
+    },
+    {
+      "text": "You are fucking retarded",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9877,
+      "index": 3513
+    },
+    {
+      "text": "Yeah.... I've always sucked at smiling honestly. I hate it. I hate selfies. I usually don't smile.",
+      "true_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.986,
+      "index": 4775
+    },
+    {
+      "text": "Are you daft ... ? That is and always has been the proposal. [NAME] don't listen and don't care though. Fucking dumbass.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9821,
+      "index": 1852
+    },
+    {
+      "text": "What the fuck is this about?",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9779,
+      "index": 447
+    },
+    {
+      "text": "This is a hate sub",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9777,
+      "index": 2341
+    },
+    {
+      "text": "SHE. IS. THE. FUCKING. WORST. P.S. You\u2019re not fat, you just need a stylist. \ud83d\ude44",
+      "true_labels": [
+        "angry",
+        "disgusted",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9771,
+      "index": 1411
+    },
+    {
+      "text": "What the hell was that",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9757,
+      "index": 3512
+    }
+  ],
+  "happy -> frustrated": [
+    {
+      "text": "You ain't wrong",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.979,
+      "index": 4122
+    },
+    {
+      "text": "I don\u2019t know about romance, but I can certainly speak for the [NAME]",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9556,
+      "index": 4780
+    },
+    {
+      "text": "I usually say , DON'T BE EMBARRASSED ! They don't know you anyway...mm",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9419,
+      "index": 1880
+    },
+    {
+      "text": "I don\u2019t think that would be an issue with [NAME]. He doesn\u2019t seem like work ethic is his problem",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9392,
+      "index": 122
+    },
+    {
+      "text": "I do not disagree with any of this. Good take, sir.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9279,
+      "index": 3036
+    },
+    {
+      "text": "Nope, from Nebraska why? Lmao",
+      "true_labels": [
+        "happy",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9256,
+      "index": 3564
+    },
+    {
+      "text": "Maybe so , i just dont know about him, team has enough turmoil they just dont need any more distractions",
+      "true_labels": [
+        "frustrated",
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8974,
+      "index": 3051
+    },
+    {
+      "text": "Idk why ur being downvoted, I thought that's funny",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8955,
+      "index": 3773
+    },
+    {
+      "text": "I... don\u2018t see anything wrong with that?",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8934,
+      "index": 1952
+    },
+    {
+      "text": "I don't know who wrote what, but good call - the d's are completely different from one to the other.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8932,
+      "index": 1242
+    }
+  ],
+  "neutral -> fearful": [
+    {
+      "text": "[NAME] looks veeeery nervous",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9802,
+      "index": 2175
+    },
+    {
+      "text": "What happened to one of your star players?? i saw the headline 'freak injury' or someting like that.. but i was too scared to see someting gruesome..",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.906,
+      "index": 126
+    },
+    {
+      "text": "For me, the only thing that makes it cringe is [NAME] covering his mouth",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.8303,
+      "index": 2922
+    },
+    {
+      "text": "He\u2019s probably just getting stressed out that it is now getting dark and he lives in the countryside",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.8098,
+      "index": 3482
+    },
+    {
+      "text": "Your friend must have had a horrible time writing papers if adjectives like that were off limits",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.7897,
+      "index": 1569
+    },
+    {
+      "text": "I wouldnt go that far, but paranoid schizophrenia can definitely do that to someone. Even mild social anxiety can also cause it, though",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.7774,
+      "index": 617
+    },
+    {
+      "text": "As a Ringwraith this offends me. Please build me a snowfort.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.726,
+      "index": 3860
+    },
+    {
+      "text": "Witness me, I will ride historic, dusty and lacquered, on the country road",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.657,
+      "index": 1456
+    },
+    {
+      "text": "They never seem to think this when the police arrive, with their guns, to end a terrible situation. ",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.649,
+      "index": 3419
+    },
+    {
+      "text": "You will find the words that work for your dynamic. The fact you are worried and thinking about it is 75% of the battle",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.6239,
+      "index": 2975
+    }
+  ],
+  "frustrated -> disgusted": [
+    {
+      "text": "Isn\u2019t it the worst feeling ever?",
+      "true_labels": [
+        "disgusted",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9932,
+      "index": 3441
+    },
+    {
+      "text": "The worst bbq in Texas Edit: Some of you are getting seriously r/wooooshed It's their slogan.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.969,
+      "index": 132
+    },
+    {
+      "text": "Trier is low key an awful defender",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9079,
+      "index": 1347
+    },
+    {
+      "text": "I mean, it certainly is weird but don't kinkshame",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9001,
+      "index": 4601
+    },
+    {
+      "text": "That specific block is probably one of the worst in the city.",
+      "true_labels": [
+        "disgusted",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "disgusted"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8707,
+      "index": 539
+    },
+    {
+      "text": "i am a man and i disagree. i mean you logic is worse if you believe it.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8534,
+      "index": 1205
+    },
+    {
+      "text": "> It\u2019s generally viewed upon as being one of the worst [NAME] games ever made. No it isn't. Source that claim.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.799,
+      "index": 2258
+    },
+    {
+      "text": "Definitely the current worst, hence 20 actually buffs coming her way.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "disgusted"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.7246,
+      "index": 4648
+    },
+    {
+      "text": "You played torb....... that\u2019s why. Just kidding that\u2019s really weird though",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.5654,
+      "index": 3454
+    },
+    {
+      "text": "The best part of froyo is getting to do it yourself. Robot is useless and bad at it's job.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "disgusted"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.5086,
+      "index": 2718
+    }
+  ],
+  "frustrated -> surprised": [
+    {
+      "text": "What camouflage?",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9927,
+      "index": 4098
+    },
+    {
+      "text": "Why is anyone surprised. It has never worked.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9897,
+      "index": 4679
+    },
+    {
+      "text": "Wow that's not how you resolve things. Escalation is the last option.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9689,
+      "index": 3826
+    },
+    {
+      "text": "Is that bottom trey filled with beer? If so, how did he acquire them?",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9616,
+      "index": 3672
+    },
+    {
+      "text": "why is this hard to believe it\u2019s totally believable",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9531,
+      "index": 4474
+    },
+    {
+      "text": "Wow that's not OK",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9434,
+      "index": 4224
+    },
+    {
+      "text": "What do you mean by delicate flowers?",
+      "true_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9391,
+      "index": 4385
+    },
+    {
+      "text": "How can we send money to you?",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9156,
+      "index": 3856
+    },
+    {
+      "text": "I believe it was clear I disagreed. And I don\u2019t play wow.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9132,
+      "index": 1419
+    },
+    {
+      "text": "by deep pockets do you mean the Fleshlight?",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.8973,
+      "index": 2362
+    }
+  ],
+  "surprised -> sad": [
+    {
+      "text": "Oh sorry my bad, didmt know",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9997,
+      "index": 1112
+    },
+    {
+      "text": "Wife just had our baby, and this story freaked me out. I can't imagine going through something like that.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8869,
+      "index": 171
+    },
+    {
+      "text": "I can't imagine buds being very hard to find in Hawaii",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8712,
+      "index": 3381
+    },
+    {
+      "text": "My kids graduated college two years ago. Guess I missed it?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8534,
+      "index": 3951
+    },
+    {
+      "text": "I saw that comment and wondered if someone was going to post it here. I almost feel bad. Maybe they\u2019re lonely.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8465,
+      "index": 4541
+    },
+    {
+      "text": "Lost finger how?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8354,
+      "index": 3519
+    },
+    {
+      "text": "So clearly you have vast knowledge of linear algebra and can fact check the entire paper Nd disprove it?",
+      "true_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.6705,
+      "index": 297
+    },
+    {
+      "text": "My mom sent it to me so I knew it was bad but I didn\u2019t realise it was already here",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.6533,
+      "index": 3406
+    },
+    {
+      "text": "I am [NAME] total lack of suprise",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.6213,
+      "index": 2395
+    },
+    {
+      "text": "This made me spit out my coffee. But I feel [NAME] is too regal. How about [NAME]?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.5695,
+      "index": 4904
+    }
+  ],
+  "happy -> sad": [
+    {
+      "text": "Sorry, but [NAME] is too POWERFUL, not to be his own character. But seriously i definitely now want this.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9484,
+      "index": 2799
+    },
+    {
+      "text": "I like it. Ending made me cry happy tears. I don't cry often",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9368,
+      "index": 1898
+    },
+    {
+      "text": "Hahahahahahahaa (Sorry, that is all I can say, it does not require a more intelligible comment.) ",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9264,
+      "index": 1755
+    },
+    {
+      "text": "Just be honest with this person. Sorry I didn\u2019t read the whole thing I don\u2019t have time rn :(",
+      "true_labels": [
+        "happy",
+        "sad"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9179,
+      "index": 172
+    },
+    {
+      "text": "Gah sad high five. I tried once for a few weeks and will never try again. I need that support in my life.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8952,
+      "index": 3453
+    },
+    {
+      "text": "[NAME]: I'm sorry that happened. I hope you weren't totally friendless on your 30th!",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8713,
+      "index": 3647
+    },
+    {
+      "text": "I had to watch x3 to make sure I didn't miss something \ud83d\ude02",
+      "true_labels": [
+        "happy",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8554,
+      "index": 1004
+    },
+    {
+      "text": "That sucks man, I'm sorry. Things will get better, they always do in the end",
+      "true_labels": [
+        "angry",
+        "happy"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8541,
+      "index": 1734
+    },
+    {
+      "text": "Sorry I'm a reddit noob but why do I get notifications of comments on my thread but then they disappear and I can't read them? Lol",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.832,
+      "index": 3157
+    },
+    {
+      "text": "Sorry for your loss yesterday. Your team is poised to do even better in the years to come and hopefully they will.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.7954,
+      "index": 4512
+    }
+  ],
+  "frustrated -> happy": [
+    {
+      "text": "I guess some people just hate fun, lol",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9719,
+      "index": 3224
+    },
+    {
+      "text": "Yeah, it's pretty funny how incapable most of them are of actual satire and subtlety.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.9101,
+      "index": 2324
+    },
+    {
+      "text": "Ah ok, that makes more sense. I don\u2019t think most [NAME] would see your last name and try to make it French, lol.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8994,
+      "index": 1735
+    },
+    {
+      "text": "Right now, it feels like a good thing but not a great thing. I don't love it... But I don't hate it. ",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8899,
+      "index": 3950
+    },
+    {
+      "text": "Lol it's a public sidewalk, I wouldn't call it their set ",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8049,
+      "index": 1328
+    },
+    {
+      "text": "No thanks probably stank af.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "happy",
+        "neutral"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7989,
+      "index": 1483
+    },
+    {
+      "text": "Well i know this much is true, there\u2019s unspoken truth amoung us men, we secretly love hairy vaj. No? Just me?",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7905,
+      "index": 289
+    },
+    {
+      "text": "That doesn\u2019t even look like her! Except the [NAME] in the background, now that\u2019s the one we know and love.",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7875,
+      "index": 1418
+    },
+    {
+      "text": "\"I love animals but I hate PETA.\" - [NAME] ",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7805,
+      "index": 2475
+    },
+    {
+      "text": "I cant think of anything funny to say so upvote to give me free karma",
+      "true_labels": [
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "frustrated",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7741,
+      "index": 1929
+    }
+  ],
+  "angry -> sad": [
+    {
+      "text": "It's racism. It doesn't make me angry, it makes me feel sorry for their ignorance and yours.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9447,
+      "index": 4145
+    },
+    {
+      "text": "It's too bad that you think helping out the less fortunate is sad and make a joke about it . People like you are the problem.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9422,
+      "index": 4787
+    },
+    {
+      "text": "The bitch doesnt need drag race (bc shes amazing) but im still sad.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9369,
+      "index": 1587
+    },
+    {
+      "text": "I just want to live. You're the sad loser for going out of your way to comment something so completely stupid",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8642,
+      "index": 2106
+    },
+    {
+      "text": "Just get him out of my sight I\u2019m tired of losing and those who contribute to it",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8448,
+      "index": 1283
+    },
+    {
+      "text": "Ignorance is unfortunately a part of mankind. We are still so Un-evolved",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.7857,
+      "index": 1130
+    },
+    {
+      "text": "i feel like slapping /s after everything sucks the fun out. it's not my fault people are autistic.... /s",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.7469,
+      "index": 4153
+    },
+    {
+      "text": "My nipples are rock hard right now, just ruined my shirt. ",
+      "true_labels": [
+        "angry",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.656,
+      "index": 2642
+    },
+    {
+      "text": "It was SO hard to click the upvote button on this one. It's one of those \"I hate it. Well done\" moments.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.6488,
+      "index": 2085
+    },
+    {
+      "text": "You missed the point \ud83d\ude43",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.6384,
+      "index": 1986
+    }
+  ],
+  "disgusted -> disgusted": [
+    {
+      "text": "Even worse.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9989,
+      "index": 4998
+    },
+    {
+      "text": "People are disgusting and insane.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9974,
+      "index": 3309
+    },
+    {
+      "text": "This is one of the worst I've seen...",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9956,
+      "index": 558
+    },
+    {
+      "text": "All the people in this thread are fucking disgusting",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9902,
+      "index": 1406
+    },
+    {
+      "text": "That's quite a lot worse tbh",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9854,
+      "index": 1570
+    },
+    {
+      "text": "a weird way to spell Boys Don\u2019t Turbo Grafx 16",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9824,
+      "index": 2070
+    },
+    {
+      "text": "A horrendous amount of Sesame oil, god, that would be awful.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "fearful"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9744,
+      "index": 1154
+    },
+    {
+      "text": "Weird but effective",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9735,
+      "index": 4188
+    },
+    {
+      "text": "He must smell terrible when he sweats. That's honestly pretty gross.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "fearful"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9731,
+      "index": 1887
+    },
+    {
+      "text": "Disgusting of you [NAME] you filthy who're you pedophilic scum trying to beguile our children it's not gonna work I got [NAME] castorated",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9726,
+      "index": 1216
+    }
+  ],
+  "neutral -> sad": [
+    {
+      "text": "I thought that was gonna be the Pelicans after [NAME] is gone(sorry Pelicans fans)",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9687,
+      "index": 4711
+    },
+    {
+      "text": "[NAME] can\u2019t hurt us anymore.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9652,
+      "index": 463
+    },
+    {
+      "text": "Not sad enough fo here the skeleton is dead so he can't comit sucide",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9601,
+      "index": 225
+    },
+    {
+      "text": "Most rapists aren't, unfortunately. ",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9295,
+      "index": 4657
+    },
+    {
+      "text": "That feeling when your mascot is there but none of his players. Sorry Youppi",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9177,
+      "index": 651
+    },
+    {
+      "text": "That poor snake",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9107,
+      "index": 2212
+    },
+    {
+      "text": "Sad to see this as a one-off. [NAME] seemed to be really enjoy the game and itself. Will give the game a try.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9023,
+      "index": 4191
+    },
+    {
+      "text": "I tried to but i ended up booing the postman",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8813,
+      "index": 2407
+    },
+    {
+      "text": "Feeling is exhausting. They used to feel those things and now they feel nothing because they're so burnt out and tired",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8262,
+      "index": 1709
+    },
+    {
+      "text": "Apologize to [NAME]",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.7906,
+      "index": 823
+    }
+  ],
+  "disgusted -> angry": [
+    {
+      "text": "[NAME] fucking [NAME] are you done yet racist motherfucker, you\u2019re not helping society",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9796,
+      "index": 3960
+    },
+    {
+      "text": "Pretty shit tbh with you",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9626,
+      "index": 237
+    },
+    {
+      "text": "Every time I get a staff kill, it feels like seeing a shooting star <3 Yeah, it definitely sucks.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8215,
+      "index": 3628
+    },
+    {
+      "text": "Today is the only day I really hate my job as a dog walker",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8148,
+      "index": 275
+    },
+    {
+      "text": "Right now it sucks ass I gotta squat in snow in the freezing cold in the back yard of my apartment complex holding a little bong",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.7822,
+      "index": 739
+    },
+    {
+      "text": "It\u2019s a cruel thing to say to someone with depression.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.6967,
+      "index": 2423
+    },
+    {
+      "text": "You give me too much credit... That comment is as trash as the meme",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.6937,
+      "index": 1502
+    },
+    {
+      "text": "I will say that her housing bill left a very bad taste in my mouth, and this is coming from someone with a very high opinion of [NAME].",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.6388,
+      "index": 2229
+    },
+    {
+      "text": "I've tried the \"peanut butter\"...I almost vomited. NASTY! It went straight to the trash.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.6055,
+      "index": 1943
+    },
+    {
+      "text": "If she deleted your Snapchat just because you showed up to a bingo, then it seems she's a bit of a bad person",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.597,
+      "index": 2854
+    }
+  ],
+  "sad -> neutral": [
+    {
+      "text": "[NAME] wept.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.9364,
+      "index": 749
+    },
+    {
+      "text": "It's in case he suffers from amnesia and forgets his name.",
+      "true_labels": [
+        "fearful",
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8734,
+      "index": 4230
+    },
+    {
+      "text": "Been off since November 29th. I would rather be working and making money. Home gets boring",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8108,
+      "index": 3943
+    },
+    {
+      "text": "She is probably cheating on you. :(",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8047,
+      "index": 545
+    },
+    {
+      "text": "Hold my wine, I have to go vomit in sorrow. ",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.8045,
+      "index": 1635
+    },
+    {
+      "text": "Except it seems like the constant jerking off about DMC was one of the several things that could have led to them drifting apart.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7914,
+      "index": 1290
+    },
+    {
+      "text": "Hip hop has fallen down so far music in general, since the 90's. ",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7871,
+      "index": 4473
+    },
+    {
+      "text": "Conservative is massively brigaded on an hourly basis. Unfortunately, it requires strict moderation or else it is unreadable.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7847,
+      "index": 3849
+    },
+    {
+      "text": "It\u2019s not unlikely that his family was already imprisoned or dead, which gave him the window to run. ",
+      "true_labels": [
+        "angry",
+        "neutral",
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.751,
+      "index": 1269
+    },
+    {
+      "text": "Doubters. I'm still waiting on a status report of the 2 fluffers from a few weeks ago. WOOF!",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7471,
+      "index": 3029
+    }
+  ],
+  "sad -> frustrated": [
+    {
+      "text": "You seem pretty upset about this. It's not an email it is a formal filing. It doesn't surprise me you don't understand that though.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9078,
+      "index": 4116
+    },
+    {
+      "text": "Don't know how that was missed. Tragic really. Considering the title.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8437,
+      "index": 3581
+    },
+    {
+      "text": "I don't remember, it was all very hazy...",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8159,
+      "index": 1717
+    },
+    {
+      "text": "That doesn't answer my question.",
+      "true_labels": [
+        "neutral",
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8048,
+      "index": 1403
+    },
+    {
+      "text": "I don't think you're allowed to administer a vaccine to someone who is sick/injured.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8009,
+      "index": 4511
+    },
+    {
+      "text": "And still our government is not responsible enough to pay its bills. It's rather pathetic.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.7895,
+      "index": 4354
+    },
+    {
+      "text": "No or low contact. I don't have time for \"family\" that doesn't have basic courtesy for me. ",
+      "true_labels": [
+        "angry",
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.786,
+      "index": 1014
+    },
+    {
+      "text": "Every time, lots of people overwhelm me. I have light sensitivity to florescents so that doesn't help. ",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.7771,
+      "index": 1352
+    },
+    {
+      "text": "Is there any way to somebody can please translate the notes into doc form or something? I am having trouble viewing them :(",
+      "true_labels": [
+        "neutral",
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.7626,
+      "index": 5007
+    },
+    {
+      "text": "The only thing wrong with her is her face. Maybe she has a giving personality?",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.7536,
+      "index": 3822
+    }
+  ],
+  "neutral -> disgusted": [
+    {
+      "text": "Yeah mason wasps are nasty little Tucker\u2019s.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9917,
+      "index": 688
+    },
+    {
+      "text": "Nasty, nasty, nasty... Really *can't* understand why she is a 300lb human. s/",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9662,
+      "index": 1400
+    },
+    {
+      "text": "Weird flex but ok",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9182,
+      "index": 2907
+    },
+    {
+      "text": "Right its not because they look ugly but their personality is ugly. That\u2019s what\u2019s driving everyone away.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9136,
+      "index": 2414
+    },
+    {
+      "text": "There is no assuming the worst. Its experience and taking things at face value.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8809,
+      "index": 1259
+    },
+    {
+      "text": "I just see two inflated peacocks with a dumb and disgusting look in their face. But unfortunately I am not the gender evaluating them.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8385,
+      "index": 293
+    },
+    {
+      "text": "I think a [NAME] government would be far far worse than Brexit.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8315,
+      "index": 4110
+    },
+    {
+      "text": "Ah yes, the poison. The worst part of any poisoning. ",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8243,
+      "index": 1715
+    },
+    {
+      "text": "This is gonna get worse before it gets better.",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8132,
+      "index": 1532
+    },
+    {
+      "text": "Ah, [NAME] and his random crap again...",
+      "true_labels": [
+        "neutral"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "neutral",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.805,
+      "index": 4658
+    }
+  ],
+  "angry -> disgusted": [
+    {
+      "text": "Men are the worst.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9985,
+      "index": 3902
+    },
+    {
+      "text": "Fuuuuuck. That\u2019s the worst I\u2019ve seen.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9952,
+      "index": 637
+    },
+    {
+      "text": "[NAME] is the worst coach in bulls history",
+      "true_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9835,
+      "index": 1231
+    },
+    {
+      "text": "Shes awful and its all about her. Try again. And when the show has awful ratings thatll be confirmed.",
+      "true_labels": [
+        "angry",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "disgusted"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9754,
+      "index": 318
+    },
+    {
+      "text": "I do this but but feel better in the end because I use it for procrastination. It's a weird combinational to feel better and worse while cleaning.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "happy"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9394,
+      "index": 2181
+    },
+    {
+      "text": "Wow he is... ugly.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8843,
+      "index": 3640
+    },
+    {
+      "text": "you dirty karma theft",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8439,
+      "index": 1408
+    },
+    {
+      "text": "It\u2019s showing up on mobile aswell, the double slash is weird for me though, probably on his end",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.7666,
+      "index": 1116
+    },
+    {
+      "text": "If you\u2019re working out, juicy AF, and needing to pay for escorts you must be got damn ugly in the face. ",
+      "true_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.6454,
+      "index": 4216
+    },
+    {
+      "text": "And it\u2019s always so uncomfortably awkward when someone says shit like this to you.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.6191,
+      "index": 4735
+    }
+  ],
+  "sad -> surprised": [
+    {
+      "text": "Wow, you folks sure are salty about losing the midterms! Pathetic?",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9233,
+      "index": 523
+    },
+    {
+      "text": "Why is this still not banned",
+      "true_labels": [
+        "angry",
+        "sad"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9175,
+      "index": 1120
+    },
+    {
+      "text": "it's hurting my heart :( why did you leave me",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9044,
+      "index": 370
+    },
+    {
+      "text": "Losing my identity, wondering have I gone insane...",
+      "true_labels": [
+        "sad",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.898,
+      "index": 338
+    },
+    {
+      "text": "Omg what the ever loving bloody hell did I just read?? As an artist, this was extra painful to me.",
+      "true_labels": [
+        "sad",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.8562,
+      "index": 2738
+    },
+    {
+      "text": "Can\u2019t believe [NAME] era is coming to an end... feels like yesterday I saw his 1st win against the cowboys with tiki breaking the rushing record.",
+      "true_labels": [
+        "sad",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.7704,
+      "index": 2669
+    },
+    {
+      "text": "[NAME] has continued to show how selfish she is throughout the years..we shouldn't be surprised at this. [NAME] forbid she be the bigger person for the kids.",
+      "true_labels": [
+        "sad",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.7579,
+      "index": 1809
+    },
+    {
+      "text": "[NAME] death is just so..... senseless. Why? WHY??? The based gods have forsaken us",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.7188,
+      "index": 727
+    },
+    {
+      "text": "just apologize. what other advice could you possibly require? you fucked up, now deal with it.",
+      "true_labels": [
+        "angry",
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.68,
+      "index": 4384
+    },
+    {
+      "text": "It is genuinely hard to imagine what the Magic basketball experience will be like when these two legends are no longer in their roles.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.6368,
+      "index": 1267
+    }
+  ],
+  "surprised -> angry": [
+    {
+      "text": "Can holiday just stop fucking shooting? I can\u2019t wait till he gets traded.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.9274,
+      "index": 3741
+    },
+    {
+      "text": "Pull your fucking pants up oh my god",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8829,
+      "index": 4740
+    },
+    {
+      "text": "I'm not saying to hate them, I'm wondering why this sub just started worshiping them.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8481,
+      "index": 1655
+    },
+    {
+      "text": "Holy shit that\u2019s nothing",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8436,
+      "index": 360
+    },
+    {
+      "text": "My wife would say that all of the above and another dozen more are cheating...and she wonders why I\u2019ve fucked other women...",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8426,
+      "index": 1641
+    },
+    {
+      "text": "Seriously?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.8273,
+      "index": 1362
+    },
+    {
+      "text": "Oh hell no",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.803,
+      "index": 747
+    },
+    {
+      "text": "Wasn\u2019t it 99% of the WORLD\u2019S population? Like how in the fuck is that even possible...",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.7771,
+      "index": 2848
+    },
+    {
+      "text": "> the adventure starts in the year 776 Fuck, wait, really?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.75,
+      "index": 5041
+    },
+    {
+      "text": "#RejectingIslam because it is the *ideas* [RELIGION] promotes that turned me away from it.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.7019,
+      "index": 2122
+    }
+  ],
+  "surprised -> frustrated": [
+    {
+      "text": "Am i missing something or is this an antijoke that doesn't belong here?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9546,
+      "index": 3644
+    },
+    {
+      "text": "I do not trust our defense at all. I do not believe you can increase the range of Andujar.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9313,
+      "index": 2058
+    },
+    {
+      "text": "I don't think either of them took that bump outside any worse than the other. That was jarring.",
+      "true_labels": [
+        "disgusted",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.9299,
+      "index": 1590
+    },
+    {
+      "text": "Really? I had no idea the bioavailability was the same",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.91,
+      "index": 4939
+    },
+    {
+      "text": "I have crowns and I thought I needed a mouth guard but it seems like I don\u2019t anymore.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8916,
+      "index": 792
+    },
+    {
+      "text": "Do you ever get extremely inspired at night, make plans and then wake up with no drive at all? Or is this just a general thing? ",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.88,
+      "index": 2963
+    },
+    {
+      "text": "As a Florida girl I have no clue how you all have not died. I could never live there.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8642,
+      "index": 1025
+    },
+    {
+      "text": "Actually maybe the OP is not an INTP, have you thought about that!!",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8568,
+      "index": 690
+    },
+    {
+      "text": "Are they dead? I don\u2019t recall this bit of the Nativity play.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8549,
+      "index": 423
+    },
+    {
+      "text": "Then why isn't he the one wanding people?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8497,
+      "index": 784
+    }
+  ],
+  "angry -> surprised": [
+    {
+      "text": "Is it weird if I said I forgot how brutal things could get? Like what happened to [NAME] oh my-I was appalled.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "fearful",
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9796,
+      "index": 3083
+    },
+    {
+      "text": "I pose you this question, \"How do you know [RELIGION] is not the right religion?\"",
+      "true_labels": [
+        "angry",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9457,
+      "index": 3929
+    },
+    {
+      "text": "Omg, *please*",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9136,
+      "index": 2737
+    },
+    {
+      "text": "Why the fuuuhhh",
+      "true_labels": [
+        "angry",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.9081,
+      "index": 2220
+    },
+    {
+      "text": "No wonder why their logo always looks pissed",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.8958,
+      "index": 1066
+    },
+    {
+      "text": "Why is it that EVERY SINGLE TIME ONE OF THESE HAPPENS I\u2019m only like a day late",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.8679,
+      "index": 1657
+    },
+    {
+      "text": "BECAUSE THERE IS A SHUTDOWN ATTACHED TO IT! HOW DO YOU NOT GET THAT?",
+      "true_labels": [
+        "angry",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.8399,
+      "index": 3909
+    },
+    {
+      "text": "How tf do you not expect people to find them they're the first things that show up when you search joji",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.8189,
+      "index": 941
+    },
+    {
+      "text": "Tell your husband. Its lies by omissions. Who are you to pick and choose what HE wants to know.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.8171,
+      "index": 3834
+    },
+    {
+      "text": "um what about just not engaging and leaving?",
+      "true_labels": [
+        "angry",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.7969,
+      "index": 4056
+    }
+  ],
+  "surprised -> happy": [
+    {
+      "text": "What made you so interested in great whites?",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.846,
+      "index": 3161
+    },
+    {
+      "text": "Lol, right? Who says that before banging? \u201cIs you ovulatin?\u201d SOOOO repulsive. \ud83e\udd2e\ud83e\udd2e",
+      "true_labels": [
+        "disgusted",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8452,
+      "index": 1300
+    },
+    {
+      "text": "[NAME] will love [NAME]. I wonder what the deal will look like if it happens.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8332,
+      "index": 960
+    },
+    {
+      "text": "*Hey just noticed..* it's your **1st Cakeday** Spottedgriffin! ^(hug)",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8218,
+      "index": 4223
+    },
+    {
+      "text": "This is amazing. WTF.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7386,
+      "index": 2091
+    },
+    {
+      "text": "nah it takes it a lot more than one time, I reckon you'll be fine considering your aware of the risk",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy",
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7382,
+      "index": 3277
+    },
+    {
+      "text": "What's does the future hold for you two? You're not happy with him. You deserve better.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7273,
+      "index": 2627
+    },
+    {
+      "text": "[NAME] - I misspelt and can\u2019t correct it now",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7215,
+      "index": 2731
+    },
+    {
+      "text": "So you\u2019ve never had a fwb situation and if you have it made you worthless for a real relationship to other women? Hope this goes both ways",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7114,
+      "index": 1317
+    },
+    {
+      "text": "It\u2019s not about the money, it\u2019s all about the love of the game.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.7021,
+      "index": 2378
+    }
+  ],
+  "fearful -> neutral": [
+    {
+      "text": "Tl, dr - Take the abuse. Squirming only gets them off more.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7868,
+      "index": 204
+    },
+    {
+      "text": "I was in awe the whole hour I spent in there.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7278,
+      "index": 4651
+    },
+    {
+      "text": "2 Minute [NAME] is the scariest [NAME]. I fear they have yet again, like the regular season game, scored too soon.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.6857,
+      "index": 4437
+    },
+    {
+      "text": "The thought of shooting anything at asylum seekers is appalling.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.6515,
+      "index": 15
+    },
+    {
+      "text": "No particular sauce, I'm just kinda tired of having to search that tiny lil speck of pan for at least 2 minutes before I find it.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.6473,
+      "index": 2172
+    },
+    {
+      "text": "No response after a week? That's something to worry about.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "happy",
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.5962,
+      "index": 4262
+    },
+    {
+      "text": "Try wearing something unattractive when that student is around.",
+      "true_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.5241,
+      "index": 2021
+    },
+    {
+      "text": "Same, ASMR is nightmarish. My skin crawls just thinking about it.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.5111,
+      "index": 3768
+    },
+    {
+      "text": "Help me [NAME] I'm bully in high school for no reason.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.4928,
+      "index": 3187
+    }
+  ],
+  "disgusted -> neutral": [
+    {
+      "text": "cause he constantly hates on [NAME] for no reason other than Petry having the puck on his stick more than anyone else on the team",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7921,
+      "index": 1072
+    },
+    {
+      "text": "Yea this past season her outfits were horrid",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7841,
+      "index": 2530
+    },
+    {
+      "text": "[NAME] is always the dirtiest psychopath",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.768,
+      "index": 3438
+    },
+    {
+      "text": "Weirdly enough Salad Fingers is one of [NAME] weaker animations, highly recommend \u2018The Unfixable Thought Machine\u2019",
+      "true_labels": [
+        "disgusted",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7646,
+      "index": 2817
+    },
+    {
+      "text": "I'm using mine on the Consumer Cellular customers that come in mad at me because they have to set up an Apple Account to use their IPhone.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.7028,
+      "index": 524
+    },
+    {
+      "text": "-30\u00b0, then again I'm only 16. Been a while since these temps have come around so it's not pleasant.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.6322,
+      "index": 665
+    },
+    {
+      "text": "It's going to get awfully dark and cold at night.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.5819,
+      "index": 2613
+    },
+    {
+      "text": "The cruelest people in the room are a pack of gormless dullards. It's the banality of evil for the 21st century.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.5575,
+      "index": 4576
+    },
+    {
+      "text": "Weird as I do know I've seen CoC waste/recycling services trucks picking up bins as early as 6:30AM.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "neutral",
+      "primary_pred_prob": 0.5306,
+      "index": 3207
+    }
+  ],
+  "happy -> fearful": [
+    {
+      "text": "I\u2019m having a counseling this weekend ... nothing to be scared.... just tell them about your feelings and what are you worrying about..",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9538,
+      "index": 4144
+    },
+    {
+      "text": "Correct. I still play NHL Faceoff 98 and I always turn that rule off, because it's terrible.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.8329,
+      "index": 3088
+    },
+    {
+      "text": "I have little to no anxiety and it really helps me when i have to take a test.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "surprised"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.7744,
+      "index": 3393
+    },
+    {
+      "text": "That's nothing, before BSE we did horrible things with bone meal animal feed. Cannibal cows.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.7643,
+      "index": 1937
+    },
+    {
+      "text": "Yeah it isn't the same singer. 'Don't hug me I'm scared' is voiced by [NAME], the lead singer of KKB is [NAME]",
+      "true_labels": [
+        "happy",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.718,
+      "index": 2089
+    },
+    {
+      "text": "Enjoying Mummers. I'm from Philly. I kind of terrified as they just used Skyrim music....",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.6392,
+      "index": 5044
+    },
+    {
+      "text": "That\u2019s pretty accurate",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "frustrated"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.6137,
+      "index": 658
+    },
+    {
+      "text": "Interesting read, but horrible format on mobile.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.5824,
+      "index": 744
+    },
+    {
+      "text": "I have to cuddle my dog so hard right now.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.5413,
+      "index": 3485
+    }
+  ],
+  "surprised -> disgusted": [
+    {
+      "text": "The more I look the worse it gets",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9553,
+      "index": 2758
+    },
+    {
+      "text": "And I thought Honda Civics smell bad on the outside!",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated",
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9473,
+      "index": 4762
+    },
+    {
+      "text": "Sounds weird but dont swallow",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9428,
+      "index": 4451
+    },
+    {
+      "text": "That's a weird way of spelling Disenchanted",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.7659,
+      "index": 181
+    },
+    {
+      "text": "I don\u2019t cry, either. It\u2019s weird. I think it\u2019s a personality/mentality thing. Just depends on how your brain is wired I think",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.7226,
+      "index": 2065
+    },
+    {
+      "text": "That's the laziest bro I've ever seen",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "fearful",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.7095,
+      "index": 3471
+    },
+    {
+      "text": "Yow thats gnarly.",
+      "true_labels": [
+        "fearful",
+        "surprised"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.6268,
+      "index": 1429
+    },
+    {
+      "text": "I thought my [RELIGION] boarding school was weird but now it seems pretty tame and mild in comparison.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.5764,
+      "index": 3251
+    }
+  ],
+  "angry -> fearful": [
+    {
+      "text": "Ugh...terrible.",
+      "true_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "fearful",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.9976,
+      "index": 4696
+    },
+    {
+      "text": "I just rewatched season 5. My god, I had forgotten how horrible [NAME] is. ",
+      "true_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.8975,
+      "index": 2555
+    },
+    {
+      "text": "So creepy. Made me check my locks.",
+      "true_labels": [
+        "angry",
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.8869,
+      "index": 481
+    },
+    {
+      "text": "Everyone in this video is annoying. This seems like a terrible place to go hang out.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful",
+        "frustrated"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.815,
+      "index": 4677
+    },
+    {
+      "text": "Can\u2019t stand that dwarfism [NAME] she is so cringe",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful",
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.7106,
+      "index": 2012
+    },
+    {
+      "text": "Have you ever consider knocking three times and that hide and seek/stalker vibe is terrifying. It's the most disturbing thing I can link you my AR 15.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "surprised"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.647,
+      "index": 3204
+    },
+    {
+      "text": "Ah, good old single level LAX. I barely remember it except traffic was a nightmare.",
+      "true_labels": [
+        "angry"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "angry",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.4899,
+      "index": 913
+    }
+  ],
+  "happy -> disgusted": [
+    {
+      "text": "That's the worst feeling haha",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9937,
+      "index": 3539
+    },
+    {
+      "text": "Weird flex, but ok",
+      "true_labels": [
+        "disgusted",
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9182,
+      "index": 3732
+    },
+    {
+      "text": "Yet we keep supporting this race to the bottom to the worst tolerable option...",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "disgusted"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.7429,
+      "index": 1687
+    },
+    {
+      "text": "I had a GB in 1999 and it was worse than birthing my son. I would have loved to have had the sleeve....",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "happy",
+        "sad"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.6762,
+      "index": 4019
+    },
+    {
+      "text": "Not having social media is such a blessing for me, it\u2019s weird he messaged your mum though! I bet she loved hearing from him! ",
+      "true_labels": [
+        "disgusted",
+        "happy"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.6558,
+      "index": 4432
+    },
+    {
+      "text": "I would try rubbing alcohol, high percentage. Looks greasy to me.",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "neutral"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.6549,
+      "index": 597
+    },
+    {
+      "text": "I said this somewhere else.. but I swear that man in the hood is caucasian... But that was actually hilarious",
+      "true_labels": [
+        "happy"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "happy"
+      ],
+      "primary_true": "happy",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.5392,
+      "index": 2735
+    }
+  ],
+  "fearful -> sad": [
+    {
+      "text": "I want to so bad it hurts. I guess I'm just scared.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.9502,
+      "index": 4560
+    },
+    {
+      "text": "I want to go scuba diving so bad, but swimming in anything bigger than a pool terrifies me.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8478,
+      "index": 2029
+    },
+    {
+      "text": ">![NAME] get the crossbow before it's too late he can't breath oh [NAME] please hurry im shaking and crying rn!<",
+      "true_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.8289,
+      "index": 4086
+    },
+    {
+      "text": "Feeling insecure now",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.6545,
+      "index": 2187
+    },
+    {
+      "text": "I don't feel so financially secure",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.5957,
+      "index": 1924
+    },
+    {
+      "text": "I know, that's why it's a little unfortunate they don't have a test. ",
+      "true_labels": [
+        "fearful",
+        "neutral"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.5876,
+      "index": 720
+    }
+  ],
+  "fearful -> happy": [
+    {
+      "text": "That\u2019s always my worst fear when the idea of leaving during January comes up. I wish you the best of luck in unthawing them!",
+      "true_labels": [
+        "disgusted",
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "happy"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8587,
+      "index": 2077
+    },
+    {
+      "text": "Help, help, I'm being repressed!",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "happy",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8189,
+      "index": 65
+    },
+    {
+      "text": "Oh, it's definitely working and that worries me a lot. ",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.6686,
+      "index": 1218
+    },
+    {
+      "text": "I\u2019ve massively improved but it never really gets cured. There are always situations that will give you anxiety.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.6158,
+      "index": 3343
+    },
+    {
+      "text": "I feel a sense of unease tbh",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.5045,
+      "index": 1416
+    }
+  ],
+  "disgusted -> frustrated": [
+    {
+      "text": "Hate to be that guy, but that's not DDR, that's Pump It Up, the Korean DDR rip-off.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8636,
+      "index": 218
+    },
+    {
+      "text": "Yeah he's a cunt but that doesn't mean he should be prosecuted for a joke. No matter how bad taste it was.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "neutral"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.8476,
+      "index": 3072
+    },
+    {
+      "text": "It's even worse when you get someone from NJ who has no clue how to drive in the city environment.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.7183,
+      "index": 4105
+    },
+    {
+      "text": "His music is bad starting with that yeezus album",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.6375,
+      "index": 2641
+    },
+    {
+      "text": "I'm ugly and able to bump uglies with someone I can make laugh. Mission accomplished.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "happy"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.6162,
+      "index": 4196
+    }
+  ],
+  "fearful -> disgusted": [
+    {
+      "text": "One of my worst nightmares. Ugh.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9717,
+      "index": 3602
+    },
+    {
+      "text": "His smile is so damn creepy",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "fearful"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.949,
+      "index": 2494
+    },
+    {
+      "text": "This is creepy.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "fearful"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9482,
+      "index": 676
+    },
+    {
+      "text": "I honestly predict a riot on the scale of the 2011 ones if we undergo a no-deal brexit - possibly even worse. It's terrifying.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "fearful",
+        "frustrated"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.8133,
+      "index": 4222
+    },
+    {
+      "text": "[NAME] shot has been quite frankly terrible tonight, wayy too strong on most of his looks",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.7246,
+      "index": 4333
+    }
+  ],
+  "disgusted -> happy": [
+    {
+      "text": "Sign my name to it too lol it was so awful we deserve pain and suffering for that!",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "happy",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.8158,
+      "index": 803
+    },
+    {
+      "text": "This made me spill my drink.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "happy",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.6679,
+      "index": 4702
+    },
+    {
+      "text": "That's horrible, good to know she is with an awesome guy.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "happy"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.6423,
+      "index": 704
+    },
+    {
+      "text": "My ETL been trying to tell us every box should take us 30 seconds max, and everyone ive asked about that has laughed and called it bullshit",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "happy"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "happy",
+      "primary_pred_prob": 0.5473,
+      "index": 777
+    }
+  ],
+  "sad -> fearful": [
+    {
+      "text": "This, in top of my already terrible mental health, is the reason why I'm severely underweight and need help.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.6828,
+      "index": 3915
+    },
+    {
+      "text": "Hurr durr everyone needs to worry about other people\u2019s problems",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "happy",
+        "neutral"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.6625,
+      "index": 1676
+    },
+    {
+      "text": "This just makes me feel inferior at this point.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "happy",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.543,
+      "index": 1666
+    },
+    {
+      "text": "Nice bosses are still just bosses here to exploit you, just to also make you feel bad for, instead of afraid of, defying them",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.4937,
+      "index": 2017
+    }
+  ],
+  "fearful -> angry": [
+    {
+      "text": "Don't you're making me paranoid man",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.7711,
+      "index": 951
+    },
+    {
+      "text": "Yikes. This kind of freaks me out.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry",
+        "fearful"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.6864,
+      "index": 1248
+    },
+    {
+      "text": "Threatening to drive your sisters into the ocean is illegal. It's called making a terroristic threat or menacing and can cause her to lose access to your sisters",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "angry",
+      "primary_pred_prob": 0.585,
+      "index": 852
+    }
+  ],
+  "fearful -> frustrated": [
+    {
+      "text": "Aaaand I'm still here. I don't have a alt account but whoever you reported I\"m sure is alive and well. You're terrible.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "frustrated"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.6352,
+      "index": 3122
+    },
+    {
+      "text": "I don't drink at all specifically because the next day is sheer terror.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "angry",
+        "frustrated"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.6083,
+      "index": 4538
+    },
+    {
+      "text": "I thought that type of camouflage failed horribly because the high contrast and defined shapes made the ships really stand out.",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "frustrated",
+        "sad"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "frustrated",
+      "primary_pred_prob": 0.5949,
+      "index": 3193
+    }
+  ],
+  "disgusted -> surprised": [
+    {
+      "text": "That was what was most nauseating for me honestly. Not a single period used once.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "surprised"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.6625,
+      "index": 898
+    },
+    {
+      "text": "yikes i thought it was just a joke transformer [NAME]",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "neutral",
+        "surprised"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.6325,
+      "index": 2803
+    }
+  ],
+  "sad -> disgusted": [
+    {
+      "text": "This is some of the worst passing I've ever seen.",
+      "true_labels": [
+        "angry",
+        "sad"
+      ],
+      "predicted_labels": [
+        "angry",
+        "disgusted",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.994,
+      "index": 2662
+    },
+    {
+      "text": "I still maintain the packers were a worse team this year.",
+      "true_labels": [
+        "sad"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "sad"
+      ],
+      "primary_true": "sad",
+      "primary_pred": "disgusted",
+      "primary_pred_prob": 0.9207,
+      "index": 2142
+    }
+  ],
+  "surprised -> fearful": [
+    {
+      "text": "Oh. I have anxiety for her and this conversation.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "fearful",
+        "surprised"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.7314,
+      "index": 3256
+    },
+    {
+      "text": "I had forgotten it was coming up until I saw this. That us my level of excitement and anticipation.",
+      "true_labels": [
+        "surprised"
+      ],
+      "predicted_labels": [
+        "fearful"
+      ],
+      "primary_true": "surprised",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.5745,
+      "index": 2443
+    }
+  ],
+  "disgusted -> sad": [
+    {
+      "text": "My dad wears that sweater every game day! It\u2019s in much worse condition however",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "angry",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.6471,
+      "index": 3356
+    },
+    {
+      "text": "Definitely fake. Looks like bad CGI in a movie.",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "frustrated",
+        "neutral",
+        "sad"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "sad",
+      "primary_pred_prob": 0.6261,
+      "index": 3733
+    }
+  ],
+  "disgusted -> fearful": [
+    {
+      "text": "Terrible shade of lipstick she's wearing...",
+      "true_labels": [
+        "disgusted"
+      ],
+      "predicted_labels": [
+        "disgusted",
+        "fearful"
+      ],
+      "primary_true": "disgusted",
+      "primary_pred": "fearful",
+      "primary_pred_prob": 0.896,
+      "index": 1667
+    }
+  ],
+  "fearful -> surprised": [
+    {
+      "text": "Really visually haunting though. For me, it makes me think of strange alternate futures and dystopian sci-fi worlds. ",
+      "true_labels": [
+        "fearful"
+      ],
+      "predicted_labels": [
+        "happy",
+        "surprised"
+      ],
+      "primary_true": "fearful",
+      "primary_pred": "surprised",
+      "primary_pred_prob": 0.5981,
+      "index": 3119
+    }
+  ]
+}

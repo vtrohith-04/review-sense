@@ -1,0 +1,98 @@
+{
+  "happy": {
+    "true_positives": 1281,
+    "false_positives": 385,
+    "false_negatives": 439,
+    "true_negatives": 2974,
+    "precision": 0.7689,
+    "recall": 0.7448,
+    "f1": 0.7566,
+    "false_positive_rate": 0.1146,
+    "false_negative_rate": 0.2552,
+    "support": 1720
+  },
+  "sad": {
+    "true_positives": 211,
+    "false_positives": 292,
+    "false_negatives": 134,
+    "true_negatives": 4442,
+    "precision": 0.4195,
+    "recall": 0.6116,
+    "f1": 0.4976,
+    "false_positive_rate": 0.0617,
+    "false_negative_rate": 0.3884,
+    "support": 345
+  },
+  "angry": {
+    "true_positives": 297,
+    "false_positives": 483,
+    "false_negatives": 191,
+    "true_negatives": 4108,
+    "precision": 0.3808,
+    "recall": 0.6086,
+    "f1": 0.4685,
+    "false_positive_rate": 0.1052,
+    "false_negative_rate": 0.3914,
+    "support": 488
+  },
+  "frustrated": {
+    "true_positives": 257,
+    "false_positives": 732,
+    "false_negatives": 194,
+    "true_negatives": 3896,
+    "precision": 0.2599,
+    "recall": 0.5698,
+    "f1": 0.3569,
+    "false_positive_rate": 0.1582,
+    "false_negative_rate": 0.4302,
+    "support": 451
+  },
+  "surprised": {
+    "true_positives": 325,
+    "false_positives": 578,
+    "false_negatives": 224,
+    "true_negatives": 3952,
+    "precision": 0.3599,
+    "recall": 0.592,
+    "f1": 0.4477,
+    "false_positive_rate": 0.1276,
+    "false_negative_rate": 0.408,
+    "support": 549
+  },
+  "fearful": {
+    "true_positives": 65,
+    "false_positives": 74,
+    "false_negatives": 33,
+    "true_negatives": 4907,
+    "precision": 0.4676,
+    "recall": 0.6633,
+    "f1": 0.5485,
+    "false_positive_rate": 0.0149,
+    "false_negative_rate": 0.3367,
+    "support": 98
+  },
+  "disgusted": {
+    "true_positives": 71,
+    "false_positives": 119,
+    "false_negatives": 52,
+    "true_negatives": 4837,
+    "precision": 0.3737,
+    "recall": 0.5772,
+    "f1": 0.4537,
+    "false_positive_rate": 0.024,
+    "false_negative_rate": 0.4228,
+    "support": 123
+  },
+  "neutral": {
+    "true_positives": 1415,
+    "false_positives": 1068,
+    "false_negatives": 372,
+    "true_negatives": 2224,
+    "precision": 0.5699,
+    "recall": 0.7918,
+    "f1": 0.6628,
+    "false_positive_rate": 0.3244,
+    "false_negative_rate": 0.2082,
+    "support": 1787
+  }
+}

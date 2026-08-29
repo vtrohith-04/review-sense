@@ -1,0 +1,42 @@
+{
+  "total_test_samples": 5079,
+  "misclassified_samples": 3020,
+  "mismatch_rate": 0.5946,
+  "worst_f1_scores": {
+    "frustrated": 0.3569,
+    "surprised": 0.4477,
+    "disgusted": 0.4537
+  },
+  "worst_recall_scores": {
+    "frustrated": 0.5698,
+    "disgusted": 0.5772,
+    "surprised": 0.592
+  },
+  "worst_precision_scores": {
+    "frustrated": 0.2599,
+    "surprised": 0.3599,
+    "disgusted": 0.3737
+  },
+  "top_confusion_patterns": [
+    {
+      "pattern": "sad -> sad",
+      "count": 10
+    },
+    {
+      "pattern": "angry -> neutral",
+      "count": 10
+    },
+    {
+      "pattern": "surprised -> surprised",
+      "count": 10
+    },
+    {
+      "pattern": "frustrated -> sad",
+      "count": 10
+    },
+    {
+      "pattern": "happy -> angry",
+      "count": 10
+    }
+  ]
+}
