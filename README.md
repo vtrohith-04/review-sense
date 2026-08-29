@@ -1,5 +1,7 @@
 # Review Sense
 
+This repository contains the project overview, phase plan, and implementation notes for Review Sense. For the complete living project guide with status, metrics, architecture details, and phase-by-phase updates, see [PROJECT_GUIDEBOOK.md](./PROJECT_GUIDEBOOK.md).
+
 Review Sense is an NLP-focused emotion analysis project for reviews and other short feedback text. The goal is to evolve this repository from a frontend prototype into a complete ML and DL system with a real dataset, training pipeline, evaluation workflow, backend API, and polished frontend.
 
 ## What This Project Is
