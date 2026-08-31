@@ -1,0 +1,10 @@
+{
+  "happy": 0.47,
+  "sad": 0.62,
+  "angry": 0.29,
+  "frustrated": 0.33,
+  "surprised": 0.36,
+  "fearful": 0.22,
+  "disgusted": 0.39,
+  "neutral": 0.22
+}

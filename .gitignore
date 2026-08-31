@@ -36,6 +36,11 @@ ml/data/processed/
 ml/models/checkpoints/
 ml/models/exports/
 ml/reports/figures/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
 
 # Frontend env
 frontend/.env.local
