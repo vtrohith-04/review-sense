@@ -80,3 +80,4 @@ The desktop interface uses a clean two-column grid layout with a top navigation 
 
 * **Breakpoints:** Single-column stacked view for screens $< 768\text{px}$ (mobile), side-by-side grid for $\ge 768\text{px}$ (desktop).
 * **Keyboard Navigation:** Full tab support and `Cmd+Enter` / `Ctrl+Enter` shortcut to submit review text.
+

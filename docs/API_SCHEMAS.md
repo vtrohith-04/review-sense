@@ -130,3 +130,4 @@ Interactive OpenAPI documentation is automatically available when running the ba
 * `400 Bad Request`: Payload validation failed (e.g. text exceeds 2,000 characters or batch exceeds 500 items).
 * `422 Unprocessable Entity`: Invalid JSON payload structure.
 * `503 Service Unavailable`: Model weights missing and baseline failed to load.
+

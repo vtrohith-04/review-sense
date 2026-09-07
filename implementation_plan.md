@@ -76,24 +76,27 @@ The working production label set:
 - Comprehensive confusion-focused error analysis (`PHASE_3_COMPLETION_REPORT.md`)
 - Establish baseline benchmark metrics (Micro F1: 0.5936, Macro F1: 0.5240)
 
-### Phase 4: Deep NLP (DistilBERT Transformer) 🚀 [CURRENT]
-- Dataset tokenization with `DistilBertTokenizerFast`
-- Fine-tune `DistilBertForSequenceClassification` multi-label model on GPU
-- Multi-label threshold optimization on validation set
-- Multi-label inference engine for primary and secondary emotion prediction
-- Comprehensive evaluation on test set and comparative report against Phase 3 baseline
-- Export trained model artifacts to `ml/artifacts/transformer/`
+### Phase 4: Deep NLP (DeBERTa-v3 Transformer) ✅
+- Fine-tuned `microsoft/deberta-v3-base` multi-label emotion classifier on GPU (40,700 training samples)
+- Multi-label threshold optimization on validation set (`thresholds.json`)
+- Multi-label inference engine for primary and secondary emotion prediction (`transformer_predictor.py`)
+- Benchmark comparison against Phase 3 baseline (Micro F1: 0.6784 vs 0.5936, Macro F1: 0.6089 vs 0.5240)
+- Detailed report in `PHASE_4_COMPLETION_REPORT.md`
 
-### Phase 5: API Layer & Service Integration ⏳ [NEXT]
-- FastAPI application in `backend/`
-- Load Phase 4 fine-tuned DistilBERT artifacts (model, tokenizer, threshold config)
+### Phase 5: API Layer & Service Integration ✅
+- FastAPI service implementation in `backend/app/main.py` & `backend/app/inference.py`
+- Unified model serving engine supporting DeBERTa-v3 with automatic fallback to TF-IDF baseline
+- Strict Pydantic v2 schemas (`backend/app/schemas.py`)
 - Endpoints:
-  - `GET /health`: Service health and model metadata
-  - `POST /predict`: Single review emotion classification (primary emotion, secondary emotions, full probability distribution)
-  - `POST /predict/batch`: Batch review classification with analytics summary
-- Fast inference latency optimization and fallback support for baseline model
+  - `GET /health`: System status, active model engine, device, version
+  - `GET /labels`: 8-class target emotion taxonomy
+  - `POST /api/v1/predict`: Single review emotion classification with primary/secondary thresholding & probability distribution
+  - `POST /api/v1/predict/batch`: High-throughput batch review classification
+- Comprehensive integration test suite passing 100% (`backend/tests/test_api.py`)
+- Detailed report in `PHASE_5_COMPLETION_REPORT.md`
 
-### Phase 6: Frontend Redesign & Analytics Dashboard ⏳
+### Phase 6: Frontend Redesign & Analytics Dashboard 🚀 [NEXT]
+
 - Modern React / Next.js or interactive UI in `frontend/`
 - Real-time review input and interactive emotion radar / bar chart
 - Batch CSV review upload and emotional distribution analytics

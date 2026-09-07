@@ -65,3 +65,4 @@ Review Sense bridges this gap by serving an 8-class multi-label emotion classifi
 * **Classification Accuracy:** DeBERTa-v3 Micro F1 $\ge 0.67$, Macro F1 $\ge 0.60$ on held-out test split.
 * **API Uptime:** 99.9% availability for `/predict` and `/health` endpoints.
 * **User Experience:** Instant visual feedback in React UI with animated emotion probability bar charts.
+

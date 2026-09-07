@@ -1,4 +1,4 @@
-﻿"""
+"""
 Review Sense - Transformer Emotion Predictor
 Fast, calibrated inference engine for multi-label emotion classification.
 """
@@ -72,12 +72,17 @@ class TransformerEmotionPredictor:
     def _format_prediction(
         self,
         probs: np.ndarray,
+        threshold_override: Optional[Dict[str, float]] = None,
     ) -> Dict[str, Any]:
         """Format raw probability vector into structured prediction output."""
         prob_dict = {
             label: round(float(probs[i]), 4)
             for i, label in enumerate(self.labels)
         }
+
+        active_thresholds = dict(self.thresholds)
+        if threshold_override:
+            active_thresholds.update(threshold_override)
 
         # Primary emotion: class with highest probability
         primary_idx = int(np.argmax(probs))
@@ -86,13 +91,16 @@ class TransformerEmotionPredictor:
 
         # Secondary emotions: any other class exceeding its calibrated threshold
         secondary_emotions = []
+        secondary_details = []
         for i, label in enumerate(self.labels):
             if i != primary_idx:
-                thresh = self.thresholds.get(label, 0.5)
+                thresh = active_thresholds.get(label, 0.5)
                 if probs[i] >= thresh:
                     secondary_emotions.append(label)
+                    secondary_details.append((label, prob_dict[label], thresh))
 
         # Sort secondary emotions by descending probability
+        secondary_details.sort(key=lambda item: item[1], reverse=True)
         secondary_emotions.sort(key=lambda l: prob_dict[l], reverse=True)
 
         detected_emotions = [primary_emotion] + [e for e in secondary_emotions if e != primary_emotion]
@@ -100,22 +108,29 @@ class TransformerEmotionPredictor:
         return {
             "primary_emotion": primary_emotion,
             "primary_confidence": primary_conf,
+            "primary_score": primary_conf,
             "secondary_emotions": secondary_emotions,
+            "secondary_details": secondary_details,
             "detected_emotions": detected_emotions,
             "emotion_probabilities": prob_dict,
+            "scores": prob_dict,
         }
 
-    def predict(self, text: str) -> Dict[str, Any]:
+
+    def predict(
+        self,
+        text: str,
+        threshold_override: Optional[Dict[str, float]] = None,
+        top_k: int = 3,
+    ) -> Dict[str, Any]:
         """Predict emotion for a single review text string."""
         if not text or not text.strip():
             # Return neutral fallback for empty strings
-            return {
-                "primary_emotion": "neutral",
-                "primary_confidence": 1.0,
-                "secondary_emotions": [],
-                "detected_emotions": ["neutral"],
-                "emotion_probabilities": {l: (1.0 if l == "neutral" else 0.0) for l in self.labels},
-            }
+            return self._format_prediction(
+                np.array([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]),
+                threshold_override=threshold_override,
+            )
+
 
         inputs = self.tokenizer(
             text,
@@ -129,7 +144,7 @@ class TransformerEmotionPredictor:
             outputs = self.model(**inputs)
             probs = torch.sigmoid(outputs.logits).cpu().numpy()[0]
 
-        return self._format_prediction(probs)
+        return self._format_prediction(probs, threshold_override=threshold_override)
 
     def predict_batch(
         self,

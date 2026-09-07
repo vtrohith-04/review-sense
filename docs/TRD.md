@@ -77,3 +77,4 @@ If the transformer artifact directory (`ml/artifacts/transformer/`) is missing o
 * **Input Sanitization:** Strips control characters and enforces length boundaries ($1 \le \text{length} \le 2000$).
 * **CORS Policy:** Allowed origins configured via `backend/app/config.py`.
 * **Data Schemas:** All incoming requests and outgoing responses conform strictly to Pydantic v2 schemas.
+

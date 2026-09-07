@@ -81,3 +81,4 @@ sequenceDiagram
 3. **Loading State:** Input button shows loading spinner; previous charts fade out.
 4. **Success State:** Hero badge displays primary emotion (`sad`), secondary badge displays (`frustrated`), and 8 animated progress bars show exact score percentages.
 5. **Error State:** If API returns validation error (e.g. empty string), a red alert banner displays the issue cleanly.
+

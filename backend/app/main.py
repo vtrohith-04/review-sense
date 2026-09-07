@@ -1,40 +1,33 @@
-from fastapi import FastAPI, HTTPException
+"""
+Review Sense - FastAPI Backend Service
+Serving fine-grained multi-label emotion prediction endpoints.
+"""
+
+from __future__ import annotations
+
+from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
 
-from app.config import DEFAULT_THRESHOLD, DEFAULT_TOP_K, EMOTION_LABELS
-from app.inference import ModelUnavailableError, predict_emotions
-
-
-class HealthResponse(BaseModel):
-    status: str
-    service: str
-
-
-class EmotionPredictionRequest(BaseModel):
-    text: str = Field(..., min_length=1, description="Review or feedback text to analyze.")
-    top_k: int = Field(DEFAULT_TOP_K, ge=1, le=3)
-    threshold: float = Field(DEFAULT_THRESHOLD, ge=0.0, le=1.0)
-
-
-class EmotionScore(BaseModel):
-    label: str
-    score: float
-
-
-class EmotionPredictionResponse(BaseModel):
-    primary_emotion: str
-    top_emotions: list[EmotionScore]
-    model_name: str
-    mode: str
+from .config import EMOTION_LABELS
+from .inference import ModelUnavailableError, get_inference_engine
+from .schemas import (
+    BatchPredictRequest,
+    BatchPredictResponse,
+    HealthResponse,
+    PredictRequest,
+    PredictResponse,
+)
 
 
 app = FastAPI(
     title="Review Sense API",
-    version="0.1.0",
-    description="API for Review Sense emotion classification.",
+    version="1.0.0",
+    description="Production REST API for multi-label review emotion classification.",
+    docs_url="/docs",
+    redoc_url="/redoc",
 )
 
+# Configure Cross-Origin Resource Sharing (CORS) for frontend clients
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -42,6 +35,7 @@ app.add_middleware(
         "http://127.0.0.1:3000",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "*",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -49,28 +43,88 @@ app.add_middleware(
 )
 
 
-@app.get("/health", response_model=HealthResponse)
+@app.get("/health", response_model=HealthResponse, tags=["Health"])
 def health_check() -> HealthResponse:
-    return HealthResponse(status="ok", service="review-sense-api")
+    """Returns system status, active inference model, and hardware device."""
+    try:
+        engine = get_inference_engine()
+        return HealthResponse(
+            status="ok",
+            active_model=engine.model_name,
+            device=engine.device,
+            version="1.0.0",
+        )
+    except ModelUnavailableError as err:
+        return HealthResponse(
+            status="degraded",
+            active_model="none",
+            device="cpu",
+            version="1.0.0",
+        )
 
 
-@app.get("/labels")
+@app.get("/labels", tags=["Metadata"])
 def get_labels() -> dict[str, list[str]]:
+    """Returns the list of 8 target emotion labels."""
     return {"labels": EMOTION_LABELS}
 
 
-@app.post("/api/v1/predict/emotion", response_model=EmotionPredictionResponse)
-def predict_emotion(payload: EmotionPredictionRequest) -> EmotionPredictionResponse:
+@app.post(
+    "/api/v1/predict",
+    response_model=PredictResponse,
+    status_code=status.HTTP_200_OK,
+    tags=["Prediction"],
+)
+def predict_single_review(payload: PredictRequest) -> PredictResponse:
+    """
+    Classify fine-grained emotions for a single review text.
+    Returns primary emotion, secondary emotions, full probability distribution, and latency.
+    """
     try:
-        predictions = predict_emotions(payload.text, payload.threshold, payload.top_k)
-    except ModelUnavailableError as error:
-        raise HTTPException(status_code=503, detail=str(error)) from error
+        engine = get_inference_engine()
+        result_dict = engine.predict_one(
+            text=payload.text,
+            top_k=payload.top_k,
+            threshold_override=payload.threshold_override,
+        )
+        return PredictResponse(**result_dict)
+    except ModelUnavailableError as err:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=str(err),
+        ) from err
+    except Exception as err:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Inference processing error: {err}",
+        ) from err
 
-    top_emotions = [EmotionScore(label=label, score=round(score, 4)) for label, score in predictions]
 
-    return EmotionPredictionResponse(
-        primary_emotion=top_emotions[0].label,
-        top_emotions=top_emotions,
-        model_name="tfidf-logistic-regression-baseline",
-        mode="multi_label",
-    )
+@app.post(
+    "/api/v1/predict/batch",
+    response_model=BatchPredictResponse,
+    status_code=status.HTTP_200_OK,
+    tags=["Prediction"],
+)
+def predict_batch_reviews(payload: BatchPredictRequest) -> BatchPredictResponse:
+    """
+    Classify fine-grained emotions for a list of review texts in batch mode.
+    """
+    try:
+        engine = get_inference_engine()
+        result_dict = engine.predict_batch(
+            texts=payload.texts,
+            top_k=payload.top_k,
+        )
+        return BatchPredictResponse(**result_dict)
+    except ModelUnavailableError as err:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=str(err),
+        ) from err
+
+
+# Legacy endpoint maintained for backwards compatibility with earlier UI prototypes
+@app.post("/api/v1/predict/emotion", tags=["Legacy"])
+def legacy_predict_emotion(payload: PredictRequest) -> PredictResponse:
+    return predict_single_review(payload)

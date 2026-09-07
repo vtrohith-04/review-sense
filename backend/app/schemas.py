@@ -82,3 +82,4 @@ class HealthResponse(BaseModel):
     active_model: str = Field(..., description="Currently active model engine.")
     device: str = Field(..., description="Hardware compute device (cuda or cpu).")
     version: str = Field(default="1.0.0", description="API version string.")
+
