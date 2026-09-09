@@ -73,3 +73,4 @@ def test_predict_validation_error() -> None:
     payload = {"text": ""}
     response = client.post("/api/v1/predict", json=payload)
     assert response.status_code == 422
+

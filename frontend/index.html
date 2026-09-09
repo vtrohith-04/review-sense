@@ -3,13 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Review Sense</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Review Sense — AI Emotion Intelligence Dashboard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "background": "#f8fafc",
+              "surface": "#fcf8fa",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-low": "#f6f3f5",
+              "surface-container": "#f0edef",
+              "surface-container-high": "#eae7e9",
+              "surface-container-highest": "#e4e2e4",
+              "on-surface": "#1b1b1d",
+              "on-surface-variant": "#64748b",
+              "outline": "#94a3b8",
+              "outline-variant": "#e2e8f0",
+              "primary": "#0f172a",
+              "on-primary": "#ffffff",
+              "secondary": "#0058be",
+              "on-secondary": "#ffffff",
+              "secondary-container": "#2170e4",
+              "on-secondary-container": "#fefcff",
+              "error": "#ba1a1a",
+              "error-container": "#ffdad6",
+              "on-error-container": "#93000a",
+            },
+            fontFamily: {
+              sans: ["Plus Jakarta Sans", "sans-serif"],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
   </head>
-  <body class="bg-slate-50 text-slate-950">
+  <body class="bg-[#F8FAFC] text-[#0F172A] antialiased">
     <div id="root"></div>
     <script type="module" src="/src/index.tsx"></script>
   </body>
