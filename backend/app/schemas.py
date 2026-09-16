@@ -62,8 +62,8 @@ class BatchPredictRequest(BaseModel):
     """Payload for processing multiple review texts in bulk."""
     texts: List[str] = Field(
         ...,
-        min_items=1,
-        max_items=500,
+        min_length=1,
+        max_length=500,
         description="List of review strings to classify in batch mode."
     )
     top_k: int = Field(default=3, ge=1, le=8)
@@ -82,4 +82,53 @@ class HealthResponse(BaseModel):
     active_model: str = Field(..., description="Currently active model engine.")
     device: str = Field(..., description="Hardware compute device (cuda or cpu).")
     version: str = Field(default="1.0.0", description="API version string.")
+
+
+class CredibilityRequest(BaseModel):
+    """Payload for review credibility and spam analysis."""
+    text: str = Field(
+        ...,
+        min_length=1,
+        max_length=2000,
+        description="Review text to analyze for credibility/spam.",
+        examples=["AMAZING 10/10 best ever buy it now changed my life holy grail!!!!!"]
+    )
+
+
+class CredibilityResponse(BaseModel):
+    """Response returned for review credibility and fake detection."""
+    text: str = Field(..., description="Original review text.")
+    is_fake: bool = Field(..., description="True if review is flagged as likely deceptive or spam.")
+    credibility_score: float = Field(..., ge=0.0, le=1.0, description="Authenticity confidence score (1.0 = genuine, 0.0 = fake).")
+    fake_probability: float = Field(..., ge=0.0, le=1.0, description="Probability that review is deceptive or spam.")
+    risk_level: str = Field(..., description="Authenticity risk tier: LOW, MEDIUM, or HIGH.")
+    flagged_signals: List[str] = Field(default_factory=list, description="List of explainable risk signals detected.")
+    latency_ms: float = Field(..., description="Execution time in milliseconds.")
+
+
+class BatchCredibilityRequest(BaseModel):
+    """Payload for batch review credibility analysis."""
+    texts: List[str] = Field(..., min_length=1, max_length=500, description="List of review strings to analyze.")
+
+
+class BatchCredibilityResponse(BaseModel):
+    """Response for batch credibility analysis."""
+    total_reviews: int = Field(..., description="Number of reviews analyzed.")
+    results: List[CredibilityResponse] = Field(..., description="List of individual credibility responses.")
+    total_latency_ms: float = Field(..., description="Total batch processing latency in milliseconds.")
+
+
+class ComprehensiveAnalysisRequest(BaseModel):
+    """Payload for combined emotion + credibility analysis."""
+    text: str = Field(..., min_length=1, max_length=2000, description="Review text to analyze.")
+    top_k: int = Field(default=3, ge=1, le=8)
+
+
+class ComprehensiveAnalysisResponse(BaseModel):
+    """Unified response combining 8-class emotion distribution and credibility assessment."""
+    text: str = Field(..., description="Original review text.")
+    emotion: PredictResponse = Field(..., description="Full multi-label emotion analysis.")
+    credibility: CredibilityResponse = Field(..., description="Authenticity and spam risk analysis.")
+    total_latency_ms: float = Field(..., description="Total combined execution latency in milliseconds.")
+
 

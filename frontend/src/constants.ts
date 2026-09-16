@@ -108,5 +108,10 @@ export const PRESET_REVIEWS: PresetReview[] = [
         title: 'Factual Delivery',
         icon: 'inventory_2',
         text: 'Order received on Wednesday. Package contained the standard blue model with charger cord as ordered.'
+    },
+    {
+        title: 'Promotional Spam ⚠️',
+        icon: 'warning',
+        text: 'AMAZING best purchase ever 10/10 buy now changed my life holy grail five stars!!!!!!!!'
     }
 ];

@@ -12,6 +12,7 @@ import {
 import { analyzeBatch, analyzeEmotion, getBackendHealth } from './services/emotionApi';
 import { Emotion } from './types';
 import type { AnalysisResult, BackendHealth, BatchJobRecord } from './types';
+import { CredibilityMeter } from './components/CredibilityMeter';
 
 type ActiveView = 'dashboard' | 'history' | 'batchJobs' | 'settings';
 
@@ -591,6 +592,12 @@ export const App: React.FC = () => {
                                                 </div>
                                             </div>
 
+                                            {/* Review Credibility & Spam Risk Assessment (Milestone 2) */}
+                                            <CredibilityMeter
+                                                credibility={currentResult.credibility}
+                                                isLoading={isLoading}
+                                            />
+
                                             {/* Probability Distribution Bars for all 8 emotions */}
                                             <div className="bg-white rounded-3xl border border-[#E2E8F0] shadow-sm p-6">
                                                 <div className="flex items-center justify-between mb-4">
@@ -723,6 +730,26 @@ export const App: React.FC = () => {
                                                         <span className="text-xs font-extrabold text-[#0F172A]">
                                                             {formatPercent(item.primaryScore)}
                                                         </span>
+                                                        {item.credibility && (
+                                                            <>
+                                                                <span className="text-xs text-[#94A3B8]">•</span>
+                                                                <span
+                                                                    className={`text-[10px] px-2 py-0.5 rounded-full font-bold uppercase ${
+                                                                        item.credibility.riskLevel === 'LOW'
+                                                                            ? 'bg-emerald-100 text-emerald-800'
+                                                                            : item.credibility.riskLevel === 'MEDIUM'
+                                                                            ? 'bg-amber-100 text-amber-800'
+                                                                            : 'bg-rose-100 text-rose-800'
+                                                                    }`}
+                                                                >
+                                                                    {item.credibility.riskLevel === 'LOW'
+                                                                        ? '✓ Authentic'
+                                                                        : item.credibility.riskLevel === 'MEDIUM'
+                                                                        ? '⚠️ Suspicious'
+                                                                        : '🚨 High Risk Fake'}
+                                                                </span>
+                                                            </>
+                                                        )}
                                                         <span className="text-xs text-[#94A3B8]">•</span>
                                                         <span className="text-xs text-[#94A3B8]">{item.timestamp}</span>
                                                         <span className="text-xs text-[#94A3B8]">•</span>

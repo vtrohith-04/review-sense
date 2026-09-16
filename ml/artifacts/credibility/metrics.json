@@ -1,0 +1,20 @@
+{
+  "model_type": "Hybrid TF-IDF + Stylometrics LogisticRegression",
+  "train_samples": 32392,
+  "val_samples": 4049,
+  "test_samples": 4050,
+  "training_time_seconds": 1.32,
+  "test_metrics": {
+    "accuracy": 0.9417,
+    "precision": 0.9507,
+    "recall": 0.9319,
+    "f1": 0.9412,
+    "roc_auc": 0.9857,
+    "confusion_matrix": {
+      "true_negative_authentic": 1926,
+      "false_positive_fake": 98,
+      "false_negative_authentic": 138,
+      "true_positive_fake": 1888
+    }
+  }
+}

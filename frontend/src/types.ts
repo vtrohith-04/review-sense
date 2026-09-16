@@ -18,6 +18,15 @@ export interface EmotionScore {
     exceedsThreshold?: boolean;
 }
 
+export interface CredibilityResult {
+    isFake: boolean;
+    credibilityScore: number;
+    fakeProbability: number;
+    riskLevel: 'LOW' | 'MEDIUM' | 'HIGH';
+    flaggedSignals: string[];
+    latencyMs?: number;
+}
+
 export interface AnalysisResult {
     id?: string;
     review: string;
@@ -26,6 +35,7 @@ export interface AnalysisResult {
     primaryScore: number;
     topEmotions: EmotionScore[];
     secondaryEmotions: EmotionScore[];
+    credibility?: CredibilityResult;
     modelName: string;
     latencyMs: number;
     timestamp?: string;

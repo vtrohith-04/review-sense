@@ -148,6 +148,68 @@ def get_inference_engine() -> InferenceEngineWrapper:
     )
 
 
+CREDIBILITY_ARTIFACT_DIR = REPO_ROOT / "ml" / "artifacts" / "credibility"
+
+
+class CredibilityEngineWrapper:
+    """Wrapper encapsulating the active review credibility / spam predictor."""
+
+    def __init__(self, predictor: Any):
+        self.predictor = predictor
+
+    def analyze_one(self, text: str) -> Dict[str, Any]:
+        start_time = time.perf_counter()
+        res = self.predictor.predict_one(text)
+        elapsed_ms = (time.perf_counter() - start_time) * 1000.0
+        return {
+            "text": res["text"],
+            "is_fake": res["is_fake"],
+            "credibility_score": res["credibility_score"],
+            "fake_probability": res["fake_probability"],
+            "risk_level": res["risk_level"],
+            "flagged_signals": res["flagged_signals"],
+            "latency_ms": round(elapsed_ms, 2),
+        }
+
+    def analyze_batch(self, texts: List[str]) -> Dict[str, Any]:
+        start_time = time.perf_counter()
+        batch_results = self.predictor.predict_batch(texts)
+        total_elapsed_ms = (time.perf_counter() - start_time) * 1000.0
+
+        formatted = [
+            {
+                "text": r["text"],
+                "is_fake": r["is_fake"],
+                "credibility_score": r["credibility_score"],
+                "fake_probability": r["fake_probability"],
+                "risk_level": r["risk_level"],
+                "flagged_signals": r["flagged_signals"],
+                "latency_ms": 0.0,
+            }
+            for r in batch_results
+        ]
+
+        return {
+            "total_reviews": len(texts),
+            "results": formatted,
+            "total_latency_ms": round(total_elapsed_ms, 2),
+        }
+
+
+@lru_cache(maxsize=1)
+def get_credibility_engine() -> CredibilityEngineWrapper:
+    """Singleton factory for the review credibility engine."""
+    if CREDIBILITY_ARTIFACT_DIR.exists():
+        try:
+            from ml.models.credibility_predictor import ReviewCredibilityPredictor
+            predictor = ReviewCredibilityPredictor(artifact_dir=CREDIBILITY_ARTIFACT_DIR)
+            return CredibilityEngineWrapper(predictor=predictor)
+        except Exception as err:
+            raise ModelUnavailableError(f"Failed to load credibility predictor: {err}") from err
+
+    raise ModelUnavailableError("Credibility model artifacts were not found in ml/artifacts/credibility/.")
+
+
 def predict_emotions(
     text: str,
     threshold: float = DEFAULT_THRESHOLD,

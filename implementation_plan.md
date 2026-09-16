@@ -102,10 +102,12 @@ The working production label set:
 - Batch CSV review upload and emotional distribution analytics
 - Display primary vs secondary emotions with confidence indicators
 
-### Phase 7: Spam & Fake Review Detection ⏳
-- Dataset selection for fake / deceptive review detection
-- Binary / Multi-task classifier training
-- Dedicated API endpoint `POST /analyze/credibility`
+### Phase 7: Spam & Fake Review Detection ✅ [COMPLETED]
+- Dataset preparation (Amazon / Deceptive Review Corpus with 40,491 samples)
+- Hybrid classification model: Stylometric heuristics + 35k n-gram TF-IDF classifier (94.17% Test Accuracy)
+- Credibility inference engine ([`ml/models/credibility_predictor.py`](file:///d:/Downloads/review-sense/ml/models/credibility_predictor.py))
+- FastAPI endpoints: `POST /api/v1/analyze/credibility`, `/batch`, and `/analyze/comprehensive`
+- Frontend UI Authenticity Meter gauge and history credibility risk tags
 
 ### Phase 8: Deployment & GitHub Polish ⏳
 - Docker containerization for backend and frontend
